@@ -1,0 +1,193 @@
+a {
+	color: #333;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #00c;
+}
+
+.nav {
+	position: absolute;
+	top: 20px;
+	right: 125px;
+	width: 330px;
+	height: 15px;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.sz {
+	position: absolute;
+	top: 20px;
+	right: 90px;
+	width: 27px;
+	height: 15px;
+	font-size: 13px;
+}
+
+.sz ul {
+	position: absolute;
+	right: -13px;
+	top: 13px;
+	display: none;
+	width: 53px;
+	padding: 0;
+	line-height: 25px;
+	line-height: 30px;
+	list-style: none;
+	border: 1px solid gray;
+}
+
+.sz:hover ul {
+	display: block;
+}
+
+.cp {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 53px;
+	height: 15px;
+	font-size: 13px;
+	background-color: #3385ff;
+}
+
+.cp ul img {
+	list-style: none;
+	width: 60px;
+	height: 60px;
+}
+
+.cp ul {
+	position: absolute;
+	right: -3px;
+	display: none;
+	list-style: none;
+}
+
+.cp:hover ul {
+	display: block;
+}
+
+.cp:hover {
+	background-color: grey;
+}
+
+.lg img {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	width: 270px;
+	height: 129px;
+	margin-left: -135px;
+}
+
+.text {
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	width: 500px;
+	height: 30px;
+	margin-left: -300px;
+	border: 1px solid gainsboro;
+	outline: 0;
+	text-indent: 7px;
+}
+
+.content .text:focus {
+	border-color: #38f;
+}
+
+.text:hover {
+	border-color: gray;
+}
+
+.content .xj {
+	position: absolute;
+	top: 258px;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-left: 175px;
+}
+
+.xj:hover {
+	background-color: #0000CC;
+	cursor: pointer;
+}
+
+.content .btn:hover {
+	background-color: #0000CC;
+	cursor: pointer;
+}
+
+.content .btn {
+	position: absolute;
+	top: 250px;
+	left: 202px;
+	width: 90px;
+	height: 34px;
+	margin-left: 50%;
+	padding: 0;
+	font-size: 15px;
+	background-color: #3385ff;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.code1 {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 150px;
+	height: 60px;
+	margin-left: -300px;
+}
+
+.code1-img img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.code1-text {
+	float: left;
+	margin-left: 15px;
+	line-height: 25px;
+	font-size: 13px;
+}
+
+.code2 {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 150px;
+	height: 60px;
+	margin-left: -150px;
+}
+
+.code2-img img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.code2-text {
+	float: left;
+	margin-left: 15px;
+	line-height: 25px;
+	font-size: 13px;
+}
+
+.explain {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 370px;
+	height: 60px;
+	margin-left: 0px;
+	font-size: 13px;
+	line-height: 21px;
+}

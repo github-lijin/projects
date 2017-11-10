@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*标准盒模型*/
+
+.xiezi {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
+
+.xiehe {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 100px;
+	padding: 10px;
+	border: 5px solid red;
+	background-color: blueviolet;
+}
+
+
+/*怪异盒模型*/
+
+.xiezi1 {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
+
+.xiehe1 {
+	width: 130px;
+	height: 130px;
+	margin-top: 50px;
+	margin-left: 100px;
+	padding: 10px;
+	border: 5px solid red;
+	background-color: blueviolet;
+	box-sizing: border-box;
+}
+
+
+/*分栏*/
+
+.content img {
+	width: 300px;
+}
+
+.content {
+	-webkit-column-count: 4;
+}
+
+
+/*旧版弹性盒子居中*/
+
+.content1 {
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 50px;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-color: #8A2BE2;
+}
+
+.content1 img {
+	width: 200px;
+	height: 200px;
+}
+
+
+/*排序flex*/
+
+.content2 {
+	display: -webkit-flex;
+	height: 150px;
+	margin-top: 50px;
+	background-color: olivedrab;
+}
+
+.first {
+	height: 50px;
+	background-color: orange;
+	-webkit-flex: 1;
+	-webkit-order: 2;
+}
+
+.second {
+	height: 80px;
+	background-color: orchid;
+	-webkit-flex: 1;
+	-webkit-order: 3;
+}
+
+.third {
+	height: 150px;
+	background-color: orangered;
+	-webkit-flex: 1;
+	-webkit-order: 1;
+}

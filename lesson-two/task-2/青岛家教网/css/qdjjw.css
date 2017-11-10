@@ -1,0 +1,29 @@
+.first {
+	margin-left: 9%;
+}
+
+.nav {
+	float: right;
+	padding-right: 70px;
+}
+
+.one {
+	background-color: white;
+	width: 710px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+.two {
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+body {
+	background-color: cornflowerblue;
+}
+
+table {
+	font-size: small;
+}
