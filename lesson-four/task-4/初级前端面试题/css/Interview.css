@@ -1,0 +1,14 @@
+body{
+	background: antiquewhite;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+h3{
+	color: darkmagenta;
+}
+p{
+	text-indent: 2em;
+	color: green;
+}
