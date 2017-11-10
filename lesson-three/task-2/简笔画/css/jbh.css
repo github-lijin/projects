@@ -1,0 +1,572 @@
+/*标题的样式*/
+
+h1 {
+	text-align: center;
+	color: red;
+}
+
+
+/*左边眼睛的样式定位*/
+
+.head1 {
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+
+/*右边眼睛的样式定位*/
+
+.head2 {
+	position: absolute;
+	top: 100px;
+	left: 327px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+
+/*左边眼珠的样式定位*/
+
+.eye3 {
+	position: absolute;
+	top: 101px;
+	left: 308px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: black;
+	animation: eye3 2s ease infinite;
+	-webkit-animation: eye3 2s ease infinite;
+	-moz-animation: eye3 2s ease infinite;
+	-o-animation: eye3 2s ease infinite;
+}
+
+
+/*左边眼珠的动画*/
+
+@keyframes eye3 {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1, 0.1);
+	}
+}
+
+
+/*左边眼珠的动画*/
+
+@-webkit-keyframes eye3 {
+	from {
+		-webkit-transform: scale(1);
+	}
+	to {
+		-webkit-transform: scale(1, 0.1);
+	}
+}
+
+
+/*左边眼珠的动画*/
+
+@-moz-keyframes eye3 {
+	from {
+		-moz-transform: scale(1);
+	}
+	to {
+		-moz-transform: scale(1, 0.1);
+	}
+}
+
+
+/*左边眼珠的动画*/
+
+@-o-keyframes eye3 {
+	from {
+		-o-transform: scale(1);
+	}
+	to {
+		-0-transform: scale(1, 0.1);
+	}
+}
+
+
+/*右边眼珠的样式定位*/
+
+.eye4 {
+	position: absolute;
+	top: 101px;
+	left: 336px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: black;
+	animation: eye4 2s ease infinite;
+	-webkit-animation: eye4 2s ease infinite;
+	-moz-animation: eye4 2s ease infinite;
+	-o-animation: eye4 2s ease infinite;
+}
+
+
+/*右边眼珠的动画*/
+
+@keyframes eye4 {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1, 0.1);
+	}
+}
+
+
+/*右边眼珠的动画*/
+
+@-webkit-keyframes eye4 {
+	from {
+		-webkit-transform: scale(1);
+	}
+	to {
+		-webkit-transform: scale(1, 0.1);
+	}
+}
+
+
+/*右边眼珠的动画*/
+
+@-moz-keyframes eye4 {
+	from {
+		-moz-transform: scale(1);
+	}
+	to {
+		-moz-transform: scale(1, 0.1);
+	}
+}
+
+
+/*右边眼珠的动画*/
+
+@-o-keyframes eye4 {
+	from {
+		-o-transform: scale(1);
+	}
+	to {
+		-o-transform: scale(1, 0.1);
+	}
+}
+
+
+/*身体的样式定位*/
+
+.body {
+	position: absolute;
+	top: 122px;
+	left: 309px;
+	width: 33px;
+	height: 58px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-color: red;
+}
+
+
+/*左边上面翅膀的样式定位*/
+
+.left-wing1 {
+	position: absolute;
+	top: 130px;
+	left: 109px;
+	width: 200px;
+	height: 17px;
+	border: 1px solid black;
+	border-radius: 50%;
+	transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	-moz-transform: rotate(7deg);
+	-o-transform: rotate(7deg);
+	background-color: deepskyblue;
+	animation: left1 0.1s ease infinite;
+	-webkit-animation: left1 0.1s ease infinite;
+	-moz-animation: left1 0.1s ease infinite;
+	-o-animation: left1 0.1s ease infinite;
+}
+
+
+/*左边上面翅膀的动画设置*/
+
+@keyframes left1 {
+	0% {
+		transform-origin: right;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform-origin: right;
+		transform: rotate(5deg);
+	}
+}
+
+
+/*左边上面翅膀的动画设置*/
+
+@-webkit-keyframes left1 {
+	0% {
+		-webkit-transform-origin: right;
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform-origin: right;
+		-webkit-transform: rotate(5deg);
+	}
+}
+
+
+/*左边上面翅膀的动画设置*/
+
+@-moz-keyframes left1 {
+	0% {
+		-moz-transform-origin: right;
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform-origin: right;
+		-moz-transform: rotate(5deg);
+	}
+}
+
+
+/*左边上面翅膀的动画设置*/
+
+@-o-keyframes left1 {
+	0% {
+		-o-transform-origin: right;
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform-origin: right;
+		-o-transform: rotate(5deg);
+	}
+}
+
+
+/*左边下面翅膀的样式定位*/
+
+.left-wing2 {
+	position: absolute;
+	top: 148px;
+	left: 108px;
+	width: 200px;
+	height: 17px;
+	border: 1px solid black;
+	border-radius: 50%;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	background-color: deepskyblue;
+	animation: left2 0.1s ease infinite;
+	-webkit-animation: left2 0.1s ease infinite;
+	-moz-animation: left2 0.1s ease infinite;
+	-o-animation: left2 0.1s ease infinite;
+}
+
+
+/*左边下面翅膀的动画设置*/
+
+@keyframes left2 {
+	0% {
+		transform-origin: right;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform-origin: right;
+		transform: rotate(5deg);
+	}
+}
+
+
+/*左边下面翅膀的动画设置*/
+
+@-webkit-keyframes left2 {
+	0% {
+		-webkit-transform-origin: right;
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform-origin: right;
+		-webkit-transform: rotate(5deg);
+	}
+}
+
+
+/*左边下面翅膀的动画设置*/
+
+@-moz-keyframes left2 {
+	0% {
+		-moz-transform-origin: right;
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform-origin: right;
+		-moz-transform: rotate(5deg);
+	}
+}
+
+
+/*左边下面翅膀的动画设置*/
+
+@-o-keyframes left2 {
+	0% {
+		-o-transform-origin: right;
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform-origin: right;
+		-o-transform: rotate(5deg);
+	}
+}
+
+
+/*右边上面翅膀的样式定位*/
+
+.right-wing1 {
+	position: absolute;
+	top: 130px;
+	left: 342px;
+	width: 200px;
+	height: 17px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: deepskyblue;
+	transform: rotate(-6deg);
+	-webkit-animation: right1 0.1s ease infinite;
+}
+
+
+/*右边上面翅膀的动画*/
+
+@keyframes right1 {
+	0% {
+		transform-origin: left;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform-origin: left;
+		transform: rotate(-5deg);
+	}
+}
+
+
+/*右边上面翅膀的动画*/
+
+@-webkit-keyframes right1 {
+	0% {
+		-webkit-transform-origin: left;
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform-origin: left;
+		-webkit-transform: rotate(-5deg);
+	}
+}
+
+
+/*右边上面翅膀的动画*/
+
+@-moz-keyframes right1 {
+	0% {
+		-moz-transform-origin: left;
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform-origin: left;
+		-moz-transform: rotate(-5deg);
+	}
+}
+
+
+/*右边上面翅膀的动画*/
+
+@-o-keyframes right1 {
+	0% {
+		-o-transform-origin: left;
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform-origin: left;
+		-o-transform: rotate(-5deg);
+	}
+}
+
+
+/*右边下面翅膀的样式定位*/
+
+.right-wing2 {
+	position: absolute;
+	top: 148px;
+	left: 343px;
+	width: 200px;
+	height: 17px;
+	border: 1px solid black;
+	border-radius: 50%;
+	transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	background-color: deepskyblue;
+	animation: right2 0.1s ease infinite;
+	-webkit-animation: right2 0.1s ease infinite;
+	-moz-animation: right2 0.1s ease infinite;
+	-o-animation: right2 0.1s ease infinite;
+}
+
+
+/*右边下面翅膀的动画设置*/
+
+@keyframes right2 {
+	0% {
+		transform-origin: left;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform-origin: left;
+		transform: rotate(-5deg);
+	}
+}
+
+
+/*右边下面翅膀的动画设置*/
+
+@-webkit-keyframes right2 {
+	0% {
+		-webkit-transform-origin: left;
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform-origin: left;
+		-webkit-transform: rotate(-5deg);
+	}
+}
+
+
+/*右边下面翅膀的动画设置*/
+
+@-moz-keyframes right2 {
+	0% {
+		-moz-transform-origin: left;
+		-moz-transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform-origin: left;
+		-moz-transform: rotate(-5deg);
+	}
+}
+
+
+/*右边下面翅膀的动画设置*/
+
+@-o-keyframes right2 {
+	0% {
+		-o-transform-origin: left;
+		-o-transform: rotate(0deg);
+	}
+	100% {
+		-o-transform-origin: left;
+		-o-transform: rotate(-5deg);
+	}
+}
+
+
+/*尾巴的样式定位*/
+
+.tail {
+	position: absolute;
+	top: 180px;
+	left: 319px;
+	width: 13px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: orangered;
+	animation: tail 3s linear infinite;
+	-webkit-animation: tail 3s linear infinite;
+	-moz-animation: tail 3s linear infinite;
+	-o-animation: tail 3s linear infinite;
+}
+
+
+/*尾巴动画设置*/
+
+@keyframes tail {
+	0% {
+		transform-origin: top;
+		transform: rotate(0);
+	}
+	50% {
+		transform-origin: top;
+		transform: rotate(5deg);
+	}
+	100% {
+		transform-origin: top;
+		transform: rotate(-5deg);
+	}
+}
+
+
+/*尾巴动画设置*/
+
+@-webkit-keyframes tail {
+	0% {
+		-webkit-transform-origin: top;
+		-webkit-transform: rotate(0);
+	}
+	50% {
+		-webkit-transform-origin: top;
+		-webkit-transform: rotate(5deg);
+	}
+	100% {
+		-webkit-transform-origin: top;
+		-webkit-transform: rotate(-5deg);
+	}
+}
+
+
+/*尾巴动画设置*/
+
+@-moz-keyframes tail {
+	0% {
+		-moz-transform-origin: top;
+		-moz-transform: rotate(0);
+	}
+	50% {
+		-moz-transform-origin: top;
+		-moz-transform: rotate(5deg);
+	}
+	100% {
+		-moz-transform-origin: top;
+		-moz-transform: rotate(-5deg);
+	}
+}
+
+
+/*尾巴动画设置*/
+
+@-o-keyframes tail {
+	0% {
+		-o-transform-origin: top;
+		-o-transform: rotate(0);
+	}
+	50% {
+		-o-transform-origin: top;
+		-o-transform: rotate(5deg);
+	}
+	100% {
+		-o-transform-origin: top;
+		-o-transform: rotate(-5deg);
+	}
+}

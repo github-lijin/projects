@@ -1,0 +1,201 @@
+#one,
+#two,
+#three,
+#four,
+#five,
+#six {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+}
+
+
+/*第一个面的九个小格子*/
+
+#box #one div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: olivedrab;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+/*第二个面的九个小格子*/
+
+#box #two div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: orange;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+/*第三个面的九个小格子*/
+
+#box #three div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: orangered;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+/*第四个面的九个小格子*/
+
+#box #four div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+/*第五个面的九个小格子*/
+
+#box #five div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: brown;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+/*第六个面的九个小格子*/
+
+#box #six div {
+	float: left;
+	width: 58px;
+	height: 58px;
+	background-color: cornflowerblue;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#box:hover {
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	-o-animation-play-state: paused;
+}
+
+
+/*魔方动画*/
+
+#box {
+	width: 180px;
+	height: 180px;
+	margin: 150px auto;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	/*-webkit-perspective: 300px;
+	-webkit-perspective-origin: -100px -100px;*/
+	animation: animation 10s ease-in-out infinite;
+	-webkit-animation: animation 10s ease-in-out infinite;
+	-moz-animation: animation 10s ease-in-out infinite;
+	-o-animation: animation 10s ease-in-out infinite;
+	transform-origin: 90px 90px 0;
+	-webkit-transform-origin: 90px 90px 0;
+	-moz-transform-origin: 90px 90px 0;
+	-o-transform-origin: 90px 90px 0;
+}
+
+
+/*魔方帧动画*/
+
+@keyframes animation {
+	from {
+		transform: rotateX(0deg) rotatey(0deg) rotatez(0deg);
+	}
+	to {
+		transform: rotateX(360deg) rotatey(360deg) rotatez(360deg);
+	}
+}
+
+@-webkit-keyframes animation {
+	from {
+		-webkit-transform: rotateX(0deg) rotatey(0deg) rotatez(0deg);
+	}
+	to {
+		-webkit-transform: rotateX(360deg) rotatey(360deg) rotatez(360deg);
+	}
+}
+
+@-moz-keyframes animation {
+	from {
+		-moz-transform: rotateX(0deg) rotatey(0deg) rotatez(0deg);
+	}
+	to {
+		-moz-transform: rotateX(360deg) rotatey(360deg) rotatez(360deg);
+	}
+}
+
+@-o-keyframes animation {
+	from {
+		-o-transform: rotateX(0) rotatey(0) rotatez(0);
+	}
+	to {
+		-o-transform: rotateX(360deg) rotatey(360deg) rotatez(360deg);
+	}
+}
+
+
+/*第二个面*/
+
+#box #two {
+	transform: rotateX(90deg) translateY(-90px) translateZ(90px);
+	-webkit-transform: rotateX(90deg) translateY(-90px) translateZ(90px);
+	-moz-transform: rotateX(90deg) translateY(-90px) translateZ(90px);
+	-o-transform: rotateX(90deg) translateY(-90px) translateZ(90px);
+}
+
+
+/*第三个面*/
+
+#box #three {
+	transform: rotateY(-90deg) translateX(-90px) translateZ(90px);
+	-webkit-transform: rotateY(-90deg) translateX(-90px) translateZ(90px);
+	-moz-transform: rotateY(-90deg) translateX(-90px) translateZ(90px);
+	-o-transform: rotateY(-90deg) translateX(-90px) translateZ(90px);
+}
+
+
+/*第四个面*/
+
+#box #four {
+	transform: rotateY(-90deg) translateX(-90px) translateZ(90px);
+	-webkit-transform: rotateY(90deg) translateX(90px) translateZ(90px);
+	-moz-transform: rotateY(90deg) translateX(90px) translateZ(90px);
+	-o-transform: rotateY(90deg) translateX(90px) translateZ(90px);
+}
+
+
+/*第五个面*/
+
+#box #five {
+	transform: rotateX(90deg) translateY(-90px) translateZ(-90px);
+	-webkit-transform: rotateX(90deg) translateY(-90px) translateZ(-90px);
+	-moz-transform: rotateX(90deg) translateY(-90px) translateZ(-90px);
+	-o-transform: rotateX(90deg) translateY(-90px) translateZ(-90px);
+}
+
+
+/*第六个面*/
+
+#box #six {
+	transform: translateZ(-180PX);
+	-webkit-transform: translateZ(-180PX);
+	-moz-transform: translateZ(-180PX);
+	-o-transform: translateZ(-180PX);
+}

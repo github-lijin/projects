@@ -1,0 +1,115 @@
+/*所有边距等于零*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 800px;
+}
+
+
+/*头部样式*/
+
+.header {
+	height: 40px;
+	width: 100%;
+	/*	background-color: gainsboro;*/
+}
+
+.header h1 {
+	text-align: center;
+	color: red;
+}
+
+
+/*中间大容器的样式*/
+
+.article {
+	overflow: hidden;
+	margin-top: 40px;
+	min-height: 400px;
+	/*	background-color: green;*/
+}
+
+
+/*容器左边的样式*/
+
+.article .left {
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	/*	background-color: gold;*/
+}
+
+.left h2 {
+	text-align: center;
+	color: red;
+}
+
+.left p {
+	text-indent: 2em;
+}
+
+
+/*容器中间内容的样式*/
+
+.article .middle {
+	float: left;
+	width: 100%;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	/*	background-color: gray;*/
+}
+
+
+/*容器中间的的位置*/
+
+.inner {
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.inner h2 {
+	text-align: center;
+	color: red;
+}
+
+.inner p {
+	text-indent: 2em;
+	font-size: 20px;
+}
+
+
+/*容器右边的样式*/
+
+.article .right {
+	float: left;
+	width: 200px;
+	margin-left: -200px;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	/*	background-color: greenyellow;*/
+}
+
+.right h2 {
+	text-align: center;
+	color: red;
+}
+
+.right p {
+	text-indent: 2em;
+}
+
+
+/*底部的样式*/
+
+.footer {
+	height: 100px;
+	margin-top: 30px;
+	text-align: center;
+	/*	background-color: yellow;*/
+}

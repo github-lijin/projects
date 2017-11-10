@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #333;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #00c;
+}
+
+
+/*上面导航栏的样式定位*/
+
+.container .nav {
+	position: absolute;
+	top: 20px;
+	right: 125px;
+	width: 430px;
+	height: 15px;
+	font-size: 13px;
+}
+
+
+/*每个a标签之间的距离*/
+
+.container .nav a {
+	margin-left: 24px;
+}
+
+
+/*“设置”栏的样式定位*/
+
+.container .sz {
+	position: absolute;
+	top: 20px;
+	right: 90px;
+	width: 38px;
+	height: 15px;
+	font-size: 13px;
+}
+
+
+/*“设置”栏的二级菜单的样式定位*/
+
+.container .sz ul {
+	position: absolute;
+	right: -13px;
+	top: 13px;
+	display: none;
+	width: 53px;
+	padding: 0;
+	list-style: none;
+	line-height: 25px;
+	line-height: 30px;
+	border: 1px solid gray;
+}
+
+.container .sz:hover ul {
+	display: block;
+}
+
+
+/*“产品”栏的样式定位*/
+
+.container .cp {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 53px;
+	height: 15px;
+	font-size: 13px;
+	background-color: #3385ff;
+}
+
+
+/*“产品”的二级菜单的图片样式*/
+
+.container .cp ul img {
+	width: 60px;
+	height: 60px;
+	list-style: none;
+}
+
+
+/*“产品”的二级菜单的样式*/
+
+.container .cp ul {
+	position: absolute;
+	right: -3px;
+	display: none;
+	list-style: none;
+}
+
+.container .cp:hover ul {
+	display: block;
+}
+
+.container .cp:hover {
+	background-color: grey;
+}
+
+
+/*中间图片的样式定位*/
+
+.container .lg img {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	width: 270px;
+	height: 129px;
+	margin-left: -135px;
+}
+
+
+/*中间输入框的样式与定位*/
+
+.container .text {
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	width: 500px;
+	height: 30px;
+	margin-left: -300px;
+	border: 1px solid gainsboro;
+	outline: 0;
+	text-indent: 7px;
+}
+
+.container .content .text:focus {
+	border-color: #38f;
+}
+
+.container .text:hover {
+	border-color: gray;
+}
+
+
+/*相机的样式与定位*/
+
+.container .content .xj {
+	position: absolute;
+	top: 258px;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-left: 175px;
+}
+
+.container .xj:hover {
+	background-color: #0000CC;
+	cursor: pointer;
+}
+
+.container .content .btn:hover {
+	background-color: #0000CC;
+	cursor: pointer;
+}
+
+
+/*按钮的样式与定位*/
+
+.container .content .btn {
+	position: absolute;
+	top: 250px;
+	left: 202px;
+	width: 90px;
+	height: 32px;
+	margin-left: 50%;
+	padding: 0;
+	font-size: 15px;
+	color: white;
+	background-color: #3385ff;
+	border: none;
+	cursor: pointer;
+}
+
+
+/*第一组二维码的样式定位*/
+
+.container .code1 {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 150px;
+	height: 60px;
+	margin-left: -300px;
+}
+
+
+/*第一组的二维码图片样式定位*/
+
+.container .code1-img img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+
+/*第一组二维码文字的样式*/
+
+.container .code1-text {
+	float: left;
+	margin-left: 15px;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+
+/*第二组二维码的样式与定位*/
+
+.container .code2 {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 150px;
+	height: 60px;
+	margin-left: -150px;
+}
+
+
+/*第二组的二维码图片样式*/
+
+.container .code2-img img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+
+/*第二组二维码文字的样式*/
+
+.container .code2-text {
+	float: left;
+	margin-left: 15px;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+
+/*右下角三段文字的样式与定位*/
+
+.container .explain {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 370px;
+	height: 60px;
+	margin-left: 0px;
+	font-size: 13px;
+	line-height: 21px;
+}
