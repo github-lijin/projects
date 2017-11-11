@@ -1,0 +1,531 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	cursor: pointer;
+	border-bottom: 1px solid ghostwhite;
+	/*background: aquamarine;*/
+}
+
+.log {
+	float: left;
+	width: 168px;
+	height: 60px;
+}
+
+.log img {
+	width: 168px;
+	height: 60px;
+}
+
+.sethome {
+	float: left;
+	width: 35px;
+	height: 40px;
+	margin-top: 10px;
+	background: #0aa770;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.sethome span {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: white;
+}
+
+.weather {
+	float: left;
+	width: 400px;
+	height: 60px;
+	padding-top: 11px;
+}
+
+.weather img {
+	width: 400px;
+	height: 38px;
+}
+
+.username {
+	float: right;
+	width: 350px;
+	height: 60px;
+	padding-top: 17px;
+	padding-right: 0;
+}
+
+.username img {
+	width: 350px;
+	height: 25px;
+}
+
+.baidu {
+	width: 990px;
+	height: 82px;
+	/*background: gold;*/
+	margin: 0 auto;
+}
+
+.bdlog {
+	position: relative;
+	top: 36px;
+	height: 40px;
+	width: 120px;
+	background: url(../img/index_widthlg.png) -10px -212px no-repeat;
+}
+
+.text {
+	position: relative;
+	left: 159px;
+	top: -12px;
+	width: 538px;
+	height: 42px;
+	vertical-align: top;
+	text-indent: 1em;
+	font-size: 18px;
+}
+
+.btn {
+	position: relative;
+	right: -150px;
+	top: -12px;
+	width: 120px;
+	height: 46px;
+	background: url(../img/index_widthlg.png)no-repeat -211px -180px;
+	border: none;
+}
+
+.btn:hover {
+	background: url(../img/index_widthlg.png) no-repeat -211px -230px;
+}
+
+.color {
+	float: right;
+	position: relative;
+	top: -48px;
+	width: 100px;
+	height: 20px;
+	/*background: blueviolet;*/
+}
+
+.red {
+	float: right;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: red;
+	margin-right: 20px;
+	color: red;
+}
+
+.green {
+	float: right;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: green;
+	margin-right: 20px;
+	color: green;
+}
+
+.yellow {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: yellow;
+	color: yellow;
+}
+
+.menus {
+	position: relative;
+	z-index: 100;
+	width: 1200px;
+	height: 38px;
+	margin: 20px auto;
+	/*background: antiquewhite;*/
+	border-top: 2px solid #0aa770;
+	border-bottom: 1px solid gainsboro;
+}
+
+.menus ul {
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+
+.menus ul li {
+	float: left;
+	width: 109px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+
+.menus ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+.menus .menu-split {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 2px;
+	height: 40px;
+	background: url(../img/menus_split.png)no-repeat center left;
+	background-color: gray;
+}
+
+.govsite-inner {
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: -21px;
+	font-size: 14px;
+	color: #666;
+	line-height: 36px;
+	background: #fff;
+	border: 1px solid #84d7ba;
+}
+
+.title-line {
+	position: relative;
+	top: 9px;
+	width: 1px;
+	height: 20px;
+	background: #eaeaea;
+	vertical-align: top;
+}
+
+.title {
+	text-align: center;
+	color: #0aa770;
+}
+
+.govsite-item {
+	display: inline-block;
+	margin-right: 33px;
+	height: 36px;
+}
+
+.govsite-item a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+
+.container {
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.entertainment {
+	float: left;
+	width: 278px;
+	height: 150px;
+	border: 1px solid gainsboro;
+	/*background: gold;*/
+}
+
+.entertainment ul {
+	padding-left: 10px;
+}
+
+.entertainment li {
+	position: relative;
+	float: left;
+	padding-left: 25px;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.entertainment li:nth-child(2) {
+	margin-left: 39px;
+}
+
+.entertainment li:nth-child(4) {
+	margin-left: 53px;
+}
+
+.entertainment li:nth-child(6) {
+	margin-left: 53px;
+}
+
+.entertainment li:nth-child(8) {
+	margin-left: 53px;
+}
+
+.entertainment li:nth-child(10) {
+	margin-left: 53px;
+}
+
+.entertainment li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+
+.split {
+	margin: 0 -5px;
+}
+
+.entertainment .startbar-list i {
+	width: 20px;
+	height: 20px;
+}
+
+.website {
+	float: left;
+	width: 909px;
+	height: 240px;
+	border: 1px solid #84d7ba;
+	/*background: antiquewhite;*/
+	margin-left: 9px;
+}
+
+.widget-site {
+	width: 100%;
+	height: 96px;
+	/*background: aqua;*/
+	border-bottom: 1px solid gainsboro;
+}
+
+.widget-famoussite {
+	width: 100%;
+	height: 128px;
+	/*background: blueviolet;*/
+}
+
+.i-tv,
+.i-game,
+.i-movie,
+.i-comic,
+.i-toutiao,
+.i-travel,
+.i-caipiao,
+.i-gaoxiao,
+.i-tuan,
+.i-music {
+	position: absolute;
+	left: 0;
+}
+
+.i-tv {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -81px;
+}
+
+.i-game {
+	background: url(../img/index_menus_widthlg.png)no-repeat -19px -301px;
+}
+
+.i-movie {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -160px;
+}
+
+.i-comic {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -381px;
+}
+
+.i-toutiao {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -100px;
+}
+
+.i-travel {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -261px;
+}
+
+.i-caipiao {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -21px;
+}
+
+.i-gaoxiao {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -121px;
+}
+
+.i-tuan {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -281px;
+}
+
+.i-music {
+	background: url(../img/index_menus_widthlg.png)no-repeat -20px -362px;
+}
+
+.widget-site ul {
+	padding-left: 29px;
+}
+
+.widget-site li {
+	display: inline-block;
+	width: 140px;
+	margin-top: 11px;
+}
+
+.widget-site li span {
+	margin-right: -19px;
+}
+
+.widget-site li i {
+	height: 20px;
+	width: 20px;
+}
+
+.widget-site li a {
+	margin-left: 20px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+
+.bd-icon,
+.xl-icon,
+.sh-icon,
+.tx-icon,
+.wy-icon,
+.yk-icon,
+.tm-icon,
+.fh-icon,
+.tb-icon,
+.yx-icon,
+.mf-icon,
+.ys-icon,
+.jd-icon,
+.sn-icon,
+.tj-icon,
+.gm-icon,
+.qc-icon,
+.jhs-icon {
+	position: absolute;
+}
+
+.bd-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -198px;
+}
+
+.xl-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -278px;
+}
+
+.sh-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -318px;
+}
+
+.tx-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -38px;
+}
+
+.wy-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -157px;
+}
+
+.yk-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -398px;
+}
+
+.tm-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px 43.5%;
+}
+
+.fh-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -238px;
+}
+
+.tb-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -358px;
+}
+
+.mf-icon {
+	background: url(../img/game0331.png)no-repeat;
+}
+
+.yx-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px 2px;
+}
+
+.ys-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -638px;
+}
+
+.jd-icon {
+	background: url(../img/21.1.png);
+}
+
+.widget-site li:nth-child(13) i {
+	width: 16px;
+	height: 16px;
+}
+
+.sn-icon {
+	background: url(../img/8022_1.png);
+}
+
+.widget-site li:nth-child(14) i {
+	width: 16px;
+	height: 16px;
+}
+
+.tj-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -479px;
+}
+
+.gm-icon {
+	background: url(../img/8500.8500.png);
+}
+
+.widget-site li:nth-child(16) i {
+	width: 16px;
+	height: 16px;
+}
+
+.qc-icon {
+	background: url(../img/defaultIcon1229.png)no-repeat 2px -518px;
+}
+
+.jhs-icon {
+	background: url(../img/8.411.png);
+}
+
+.widget-site li:last-child i {
+	width: 16px;
+	height: 16px;
+}
+
+.widget-famoussite span {
+	display: inline-block;
+	width: 140px;
+	margin-top: 7px;
+}
+
+.widget-famoussite span a {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+
+.widget-famoussite {
+	padding-left: 29px;
+}
+
+.govsite-inner a:hover,
+.container a:hover,
+.website a:hover {
+	color: #f50;
+	text-decoration: underline;
+}
