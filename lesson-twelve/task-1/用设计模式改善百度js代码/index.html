@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>百度首页登陆完整版</title>
+		<link rel="stylesheet" type="text/css" href="css/baidu.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="float-seach">
+				<form action="https://www.baidu.com/s">
+					<div class="float-wrap">
+						<img class="float-logo" src="img/logo_top_ca79a146.png" alt="百度logo"/>
+						<input type="text" name="" id="float-txt" value="" />
+						<span class="float-camer"></span>
+						<button class="float-btn">百度一下</button>
+					</div>
+				</form>
+			</div>
+			<!--头部-->
+			<div class="head">
+				<!--天气-->
+				<div class="weather">
+					<iframe allowtransparency="true" frameborder="0" width="180" height="36" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=1&bd=0&k=&f=&q=1&e=1&a=1&c=54511&w=180&h=36&align=center"></iframe>
+				</div>
+				<div class="mysz">
+					<span>|</span>
+					<span>
+						<a href="http://vip.baidu.com/act/xuyuan">宝箱</a>
+					</span>
+					<span id="changeSkin">
+						<a href="#">换肤</a>
+						<!--换肤-->
+						<div id="skin">
+							<img src="img/1.jpg" />
+							<img src="img/2.jpg" />
+							<img src="img/3.jpg" />
+							<img src="img/4.jpg" />
+							<img src="img/5.jpg" />
+							<p class="sq">
+								<i></i>收起
+							</p>
+							<p class="bsy">
+								<em>X</em>不使用换肤
+							</p>
+						</div>
+					</span>
+					<span id="news">
+						<a href="#">消息</a>
+						<!--消息框-->
+						<div id="message">
+							<p>您目前没有新消息</p>
+							<div class="btn">
+								<button class="msg">清空消息</button>
+								<button class="msg">消息设置</button>
+							</div>
+						</div>
+					</span>
+				</div>
+
+				<!--导航-->
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="https://www.nuomi.com/">糯米</a>
+						</li>
+						<li>
+							<a href="http://news.baidu.com/">新闻</a>
+						</li>
+						<li>
+							<a href="http://www.hao123.com/">hao123</a>
+						</li>
+						<li>
+							<a href="http://map.baidu.com/">地图</a>
+						</li>
+						<li>
+							<a href="http://v.baidu.com/">视频</a>
+						</li>
+						<li>
+							<a href="https://www.baidu.com/">贴吧</a>
+						</li>
+						<li>
+							<a href="http://i.baidu.com/">登陆</a>
+						</li>
+						<li id="set">
+							<a href="#">设置</a>
+							<div id="setBox">
+								<p>
+									<a href="">搜索设置</a>
+								</p>
+								<p>
+									<a href="//www.baidu.com/gaoji/advanced.html">高级搜索</a>
+								</p>
+								<p>
+									<a href="">关闭预测</a>
+								</p>
+								<p>
+									<a href="http://i.baidu.com/my/history">搜索历史</a>
+								</p>
+							</div>
+						</li>
+						<li id="moreProducts">更多产品
+							<div id="products">
+								<a href="http://music.baidu.com/">
+									<img src="img/music.png" />音乐
+								</a>
+								<a href="http://image.baidu.com/">
+									<img src="img/image.png" />图片
+								</a>
+								<a href="https://zhidao.baidu.com/">
+									<img src="img/zhidao.png" />知道
+								</a>
+								<a href="http://wenku.baidu.com/">
+									<img src="img/wenku.png" />文库
+								</a>
+								<a href="http://top.baidu.com/">
+									<img src="img/bang.png" />风云榜
+								</a>
+								<a href="http://e.baidu.com/">
+									<img src="img/tuiguang.png" />百度推广
+								</a>
+								<a href="http://www.baidu.com/more/" target="_blank">全部产品</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!--百度logo-->
+			<div class="logo">
+				<img src="img/bd_logo1_31bdc765.png" width="270px" height="129px" />
+			</div>
+			<!--搜索框-->
+			<form action="https://www.baidu.com/s">
+				<div class="ssk">
+					<input type="text" id="txt" value="" name="word" />
+					<button type="submit" id="btn">百度一下</button>
+					<span class="camera"></span>
+					<div class="zttp">
+						<!--粘贴网址一栏-->
+						<div class="ztwz">
+							<input type="text" class="ztwz-font" value="在此处粘贴图片网址" />
+							<span class="xjbj"><i></i></span>
+						</div>
+
+						<!--拖曳图片栏-->
+						<div class="tytp">
+							<span class="tytp-font">拖拽图片到这里</span>
+							<i class="jia"></i>
+						</div>
+						<!--本地上传图片栏-->
+						<div class="bdsc">
+							<i class="wj"></i>
+							<span class="wj-font">本地上传图片</span>
+						</div>
+						<span class="close"></span>
+
+					</div>
+
+				</div>
+			</form>
+
+		</header>
+		<article>
+			<!--下面整个内容部分-->
+			<div class="container">
+				<div class="wrap">
+
+					<!--第一排菜单栏-->
+					<ul class="menu">
+						<li id="follow">
+							<i class="followLg"></i>我的关注
+						</li>
+						<li>推荐</li>
+						<li>导航</li>
+						<li>视频</li>
+					</ul>
+
+					<!--点击我的关注栏下面的内容-->
+					<div class="content nr1">
+						<div class="follow-content">
+							<!--我的导航栏-->
+							<div id="mynav">
+								<!--我的导航-->
+								<div class="dhl">
+									<div class="dh">
+										<i class="triangle"></i>
+										<!--三角形-->
+										<span id="mydh">我的导航</span>
+										<span>(0)</span>
+										<!--添加、返利模式、置顶-->
+										<div id="tfz">
+											<span class="tj">添加</span>
+											<span class="flms">
+												<i class="fl-icon"></i>返利模式
+											</span>
+											<span class="zd">置顶</span>
+										</div>
+									</div>
+								</div>
+								<!--添加网址-->
+								<div class="tjwz">
+									<img src="img/s_nav_blank_3f358752.png" />
+								</div>
+							</div>
+							<!--自定义-->
+							<div class="zdy">
+								<span class="lgzdy">
+									<img src="img/mine_set_818172e0.png"/>自定义
+								</span>
+							</div>
+
+							<div class="footer">
+								<p>
+									<a href="https://www.baidu.com/cache/sethelp/index.html">设为首页</a><span>©2016 Baidu</span>
+									<a href="https://www.baidu.com/duty/">所有百度前必读</a>
+									<a href="http://help.baidu.com/">意见反馈</a><span>京ICP证030173号</span><img src="img/copy_rignt_24.png" />
+								</p>
+								<p><i></i>京公网安备11000002000001号</p>
+							</div>
+
+						</div>
+					</div>
+
+					<!--点击推荐栏下面的内容-->
+					<div class="nr1 myRecommend">
+						<!--左边兴趣推荐的内容-->
+						<div class="xqtj">
+							<div class="xqtj-head">
+								<span class="hx"></span>
+								<span class="wz"><i></i>以下信息根据您的兴趣推荐</span>
+								<span class="hx"></span>
+							</div>
+							<!--第一栏内容-->
+							<div class="dyl">
+								<h2>
+									<a href="http://d.youth.cn/sk/201612/t20161205_8914549.htm" target="_blank">6省份公务员涨工资 中小学老师基本工资涨10%</a>
+								</h2>
+								<ul>
+									<li>
+										<a href="http://d.youth.cn/sk/201612/t20161205_8914549.htm" target="_blank" title="6省份公务员涨工资 中小学老师基本工资涨10%">
+											<img src="img/u=520382661,942656849&fm=80&w=179&h=119&img.JPEG " />
+										</a>
+									</li>
+									<li>
+										<a href="http://d.youth.cn/sk/201612/t20161205_8914549.htm" target="_blank" title="6省份公务员涨工资 中小学老师基本工资涨10%">
+											<img src="img/u=54493384,3761766969&fm=80&w=179&h=119&img.JPEG" />
+										</a>
+									</li>
+									<li>
+										<a href="http://d.youth.cn/sk/201612/t20161205_8914549.htm" target="_blank" title="6省份公务员涨工资 中小学老师基本工资涨10%">
+											<img src="img/u=4859006,3700720879&fm=80&w=179&h=119&img.JPEG" />
+										</a>
+									</li>
+								</ul>
+								<div class="from ">
+									<span class="from-wz ">
+										<a href="http://d.youth.cn/" target="_blank"> 中国青年网 </a>
+									</span>
+									<span class="time">12-05 08:53</span>
+									<span class="rd">热点</span>
+								</div>
+							</div>
+							<!--第二栏内容-->
+							<div class="del">
+								<ul>
+									<li class="xz">
+										<a href="http://news.jsinfo.net/newscontent/2016/12/999307.shtml" target="_blank"  title="12306启用“选座功能” 网友盼卧铺选座早日实现 ">
+											<img src="img/u=835950108,3924711754&fm=80&w=179&h=119&img.JPEG "/>
+										</a>
+									</li>
+									<li class="sx ">
+										<a href="http://news.jsinfo.net/newscontent/2016/12/999307.shtml " target="_blank " title="12306启用“选座功能” 网友盼卧铺选座早日实现 ">12306启用“选座功能” 网友盼卧铺选座早日实现</a>
+										<div>
+											<span class="from-wz "><a href="http://news.jsinfo.net/ " target="_blank ">江苏音符</a> </span>
+											<span class="time ">12-06 10:13</span>
+											<span class="rd ">热点</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						<!--第三栏内容-->
+						<div class="dsl ">
+							<h2><a href="http://news.haiwainet.cn/n/2016/1206/c3541839-30543306.html " target="_blank ">霍金再发警告：人类处于最危险时期 必须要“重新再教育”</a></h2>
+							<ul>
+								<li>
+									<a href="http://news.haiwainet.cn/n/2016/1206/c3541839-30543306.html " target="_blank " title=" 霍金再发警告：人类处于最危险时期 必须要“重新再教育” ">
+												<img src="img/u=555168640,1960585063&fm=80&w=179&h=119&img.JPEG "/>
+											</a>
+										</li>
+										<li>
+											<a href="http://news.haiwainet.cn/n/2016/1206/c3541839-30543306.html " target="_blank " title="霍金再发警告：人类处于最危险时期 必须要“重新再教育” ">
+										<img src="img/u=543861144,1931571807&fm=80&w=179&h=119&img.JPEG " />
+									</a>
+								</li>
+								<li>
+									<a href="http://news.haiwainet.cn/n/2016/1206/c3541839-30543306.html " target="_blank " title="霍金再发警告：人类处于最危险时期 必须要“重新再教育” ">
+										<img src="img/u=625900174,2026071096&fm=80&w=179&h=119&img.JPEG " />
+									</a>
+								</li>
+							</ul>
+							<div class="from ">
+								<span class="from-wz "><a href="http://news.haiwainet.cn/ " target="_blank ">海外网 </a></span>
+								<span class="time ">12-06 08:05</span>
+								<span class="rd ">热点</span>
+							</div>
+						</div>
+						<!--第四栏内容-->
+						<div class="dil ">
+							<ul>
+								<li class="xz ">
+									<a href="http://tech.hexun.com/2016-12-06/187208501.html " target="_blank " title="XP系统死忠 宁愿付费维护也不愿换系统 ">
+										<img src="img/u=956281834,1623045266&fm=80&w=179&h=119&img.JPG " />
+									</a>
+								</li>
+								<li class="sx ">
+									<a href="http://tech.hexun.com/2016-12-06/187208501.html " target="_blank " title="XP系统死忠 宁愿付费维护也不愿换系统 ">XP系统死忠 宁愿付费维护也不愿换系统</a>
+									<div>
+										<span class="from-wz "><a href="http://tech.hexun.com/ " target="_blank "> 和讯网 </a> </span>
+										<span class="time ">12-06 05:19</span>
+										<span class="rd ">热点</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--右边的内容-->
+					<div class="ssrd ">
+						<h3>实时热点</h3>
+						<span><i></i>换一换</span>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%BD%97%E6%96%AF%E5%8D%9A%E6%A0%BC%E5%AE%A3%E5%B8%83%E9%80%80%E5%BD%B9&rsv_idx=2 ">罗斯博格宣布退役</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%9C%BA%E5%9C%BA%E6%89%98%E8%BF%90%E5%B0%8F%E7%8B%97%E8%A2%AB%E6%8B%92&rsv_idx=2 ">机场托运小狗被拒</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E8%B0%A2%E5%A8%9C%E5%8F%91%E6%84%9F%E6%81%A9%E6%96%87&rsv_idx=2 ">谢娜发感恩文</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E9%9A%8B%E6%A3%A0%E6%80%80%E5%AD%95%E7%A9%BF%E7%B4%A7%E8%BA%AB%E8%A3%99&rsv_idx=2 ">隋棠怀孕穿紧身裙</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A7%9A%E6%99%A8%E8%8E%B7%E6%9D%B0%E5%87%BA%E5%A5%B3%E6%80%A7%E5%A5%96&rsv_idx=2 ">姚晨获杰出女性奖</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%8D%85%E4%BC%A4%E5%90%8C%E5%AD%A6%E5%90%8E%E8%B7%B3%E6%A5%BC&rsv_idx=2 ">捅伤同学后跳楼</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E9%A9%BB%E6%B8%AF%E9%83%A8%E9%98%9F%E5%AE%8C%E6%88%90%E8%BD%AE%E6%8D%A2&rsv_idx=2 ">驻港部队完成轮换</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%86%8A%E9%BB%9B%E6%9E%97%E6%B5%B7%E8%BE%B9%E5%BA%A6%E8%9C%9C%E6%9C%88&rsv_idx=2 ">熊黛林海边度蜜月</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=60%E5%9F%8E%E9%81%AD%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93&rsv_idx=2 ">60城遭空气污染</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%96%B0%E8%A5%BF%E5%85%B0%E6%80%BB%E7%90%86%E8%BE%9E%E8%81%8C&rsv_idx=2 ">新西兰总理辞职</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E4%BF%9D%E9%95%96%E5%9B%B4%E6%AE%B4%E5%B0%86%E9%A2%86%E5%84%BF%E5%AD%90&rsv_idx=2 ">保镖围殴将领儿子</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E9%87%91%E6%AD%A3%E6%81%A9%E5%8F%82%E8%A7%82%E9%A3%9E%E8%A1%8C%E8%B5%9B&rsv_idx=2 ">金正恩参观飞行赛</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E9%80%80%E4%BC%91%E5%B9%B4%E9%BE%84%E6%88%96%E5%AE%9A65&rsv_idx=2 ">退休年龄或定65</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%A2%81%E5%B0%8F%E5%86%B0%E9%99%88%E6%B3%95%E8%93%89%E4%B8%8D%E5%92%8C&rsv_idx=2 ">梁小冰陈法蓉不和</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%BC%94%E5%91%98%E5%A4%A7%E5%85%B5%E5%91%9B%E4%BA%A4%E8%AD%A6&rsv_idx=2 ">演员大兵呛交警</a>
+						<a href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%96%80%E7%BA%B3%E6%96%AF%E6%99%AF%E5%8C%BA%E5%86%AC%E6%B8%B8&rsv_idx=2 ">喀纳斯景区冬游</a>
+					</div>
+				</div>
+
+				<!--点击导航里面的内容-->
+				<div class="nr1 dh-nr ">
+					<div class="dh-nr1 ">
+						<h4>猜你喜欢</h4>
+						<ul>
+							<li>
+								<a href="http://www.nuomi.com ">
+									<img src="img/9483.png " />
+									<span>百度糯米</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.jd.com/ ">
+									<img src="img/95541.png " />
+									<span>京东商城</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.yhd.com/ ">
+									<img src="img/95780.png " />
+									<span>1号店</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.suning.com/ ">
+									<img src="img/95537.png " />
+									<span>苏宁易购</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.vip.com/ ">
+									<img src="img/95693.png " />
+									<span>唯品会</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.dangdang.com/ ">
+									<img src="img/95517.png " />
+									<span>当当网</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://netreport.sh.189.cn/speed/main.html ">
+									<img src="img/7203.png " />
+									<span>电信测速</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.tianqi.com/plugin/ ">
+									<img src="img/92849.png " />
+									<span>天气插件</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.cnblogs.com/jenney-qiu/archive/2012/02/10/2345458.html ">
+									<img src="img/7991.png " />
+									<span>jquery事件之鼠标事件</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.jquery123.com/ ">
+									<img src="img/6000.png " />
+									<span>jquery API</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.w3school.com.cn/ajax/ajax_xmlhttprequest_create.asp ">
+									<img src="img/6000 (1).png " />
+									<span>ajax</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://vip.baidu.com/ ">
+									<img src="img/7656.png " />
+									<span>百度VIP</span>
+								</a>
+							</li>
+						</ul>
+						<h4>资讯信息</h4>
+						<ul>
+							<li>
+								<a href="http://www.qq.com/ ">
+									<img class="tp " src="img/80cb39dbb6fd5266f01aba0ba218972bd40736ff.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.sina.com.cn/ ">
+									<img class="tp " src="img/5243fbf2b21193131a9878af6c380cd790238dd2.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.weibo.com/ ">
+									<img class="tp " src="img/a2cc7cd98d1001e9f9fd9310b10e7bec55e797e8.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.sohu.com/ ">
+									<img class="tp " src="img/ac4bd11373f08202698c172042fbfbedab641b96.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.163.com/ ">
+									<img class="tp " src="img/f3d3572c11dfa9ece4efd1086bd0f703908fc1e8.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.gmw.cn/ ">
+									<img class="tp " src="img/562c11dfa9ec8a130d07d1fffe03918fa0ecc094.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.cntv.cn/ ">
+									<img class="tp " src="img/024f78f0f736afc34531b97aba19ebc4b74512eb.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.people.com.cn/ ">
+									<img class="tp " src="img/b8014a90f603738de3548a3dba1bb051f819ec97.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.china.com.cn/ ">
+									<img class="tp " src="img/a08b87d6277f9e2f5c2b9b171630e924b899f397.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.chinadaily.com.cn/ ">
+									<img class="tp " src="img/2cf5e0fe9925bc31826e878757df8db1cb1370fa.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.ifeng.com/ ">
+									<img class="tp " src="img/6f061d950a7b02081c13b8fe6bd9f2d3562cc8d3.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.xinhuanet.com/ ">
+									<img class="tp " src="img/2fdda3cc7cd98d10bfca8a2e283fb80e7bec9097.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.zol.com.cn/ ">
+									<img class="tp " src="img/d50735fae6cd7b89b65ebc9c062442a7d9330efa.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.hupu.com/ ">
+									<img class="tp " src="img/7c1ed21b0ef41bd5b46e6eeb58da81cb39db3deb.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.autohome.com.cn/ ">
+									<img class="tp " src="img/0d338744ebf81a4cc1006ad6de2a6059252da6fb.jpg " />
+								</a>
+							</li>
+							<li>
+								<a href="http://www.xueqiu.com/ ">
+									<img class="tp " src="img/3c6d55fbb2fb43161622fc6529a4462309f7d3f4.jpg " />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer ">
+						<p>
+							<a href="https://www.baidu.com/cache/sethelp/index.html ">设为首页</a><span>©2016 Baidu</span>
+							<a href="https://www.baidu.com/duty/ ">所有百度前必读</a>
+							<a href="http://help.baidu.com/ ">意见反馈</a><span>京ICP证030173号</span><img src="img/copy_rignt_24.png " />
+						</p>
+						<p><i></i>京公网安备11000002000001号</p>
+					</div>
+				</div>
+
+				<!--点击视频里面的内容-->
+				<div class="nr1 sp-nr ">
+					<!--第一排-->
+					<div class="first ">
+						<ul>
+							<!--第一排第一张图片-->
+							<li class="tp1 ">
+								<div class="tp-dy ">
+									<a href="http://www.iqiyi.com/a_19rrhabdml.html?vfm=2008_aldbd " target="_blank " title="粉红猪小妹第3季 ">
+										<img class="image " src="img/u=2349177844,4072101135&fm=58.jpg " />
+										<i class="tp-lb-1 "></i>
+										<i class="tjgz-1 ">
+									 			<span class="gz-zt ">添加关注</span>
+									 		</i>
+										<i class="bgxq-1 ">
+									 			<span class="xq-zt ">不敢兴趣</span>
+									 		</i>
+										<span class="jd ">26集全</span>
+										<span class="bg "></span>
+									</a>
+								</div>
+								<div class="js ">
+									<p class="text ">
+										<a class="js-zt " href="http://www.iqiyi.com/a_19rrhabdml.html?vfm=2008_aldbd " target="_blank " title="粉红猪小妹第3季 ">
+											粉红猪小妹第3季
+										</a>
+									</p>
+									<p>
+										<span class="score-star ">
+									 			<span class="star-active "></span>
+										</span>
+										<span class="fs ">8.2</span>
+									</p>
+								</div>
+							</li>
+							<!--第一排第二张图片-->
+							<li class="tp2 ">
+								<div class="tp-dy ">
+									<a href="http://v.pptv.com/show_page/91b79210dc.html?rcc_id=baiduchuisou " target="_blank " title="太极宗师 ">
+										<img class="image " src="img/u=3486740780,1120481387&fm=58.jpg " />
+										<i class="tp-lb-2 "></i>
+										<i class="tjgz-2 ">
+									 			<span class="gz-zt ">添加关注</span>
+									 		</i>
+										<i class="bgxq-2 ">
+									 			<span class="xq-zt ">不敢兴趣</span>
+									 		</i>
+										<span class="jd ">28集全</span>
+									</a>
+								</div>
+								<div class="js ">
+									<p class="text ">
+										<a class="js-zt " href="http://v.pptv.com/show_page/91b79210dc.html?rcc_id=baiduchuisou " target="_blank " title="太极宗师 ">
+											太极宗师
+										</a>
+									</p>
+									<p>
+										<span class="score-star ">
+									 			<span class="star-active "></span>
+										</span>
+										<span class="fs ">7.9</span>
+									</p>
+								</div>
+							</li>
+							<!--第三张图片-->
+							<li class="tp3 ">
+								<!--第三张上面的图片-->
+								<div class="ypss ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra73fpw.html?vfm=f_109_bdxs " target="_blank " title="这个世上总有人比你更苦逼… ">
+											<img src="img/u=2022936079,4190134788&fm=58.jpg " />
+											<span>02:35</span>
+										</a>
+										<i class="tjgz-3 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-3 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/ " target="_blank " title="这个世上总有人比你更苦逼… ">这个世上总有人比你更苦逼…</a>
+										</span>
+									</div>
+								</div>
+								<!--第三张下面的图片-->
+								<div class="ypsx ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra72fbc.html?vfm=f_109_bdxs " target="_blank " title="美媒:斯里兰卡战略港口八成股权卖给中企 ">
+											<img src="img/u=4033511345,2344478901&fm=58.jpg " />
+											<span>01:59</span>
+										</a>
+										<i class="tjgz-4 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-4 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra72fbc.html?vfm=f_109_bdxs " target="_blank " title="美媒:斯里兰卡战略港口八成股权卖给中企 ">美媒:斯里兰卡战略港口八成股权卖给中企</a>
+										</span>
+									</div>
+								</div>
+							</li>
+							<!--第四张图片-->
+							<li class="tp4 ">
+								<!--第四张上面的图片-->
+								<div class="ypfs ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/ " target="_blank " title="海拔4000米边防军人抽屉照曝光 网友:感动心疼 ">
+											<img src="img/u=962877297,2190937547&fm=58.jpg " />
+											<span>01:52</span>
+										</a>
+										<i class="tjgz-5 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-5 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra75s5k.html?vfm=f_109_bdxs " target="_blank " title="海拔4000米边防军人抽屉照曝光 网友:感动心疼 ">海拔4000米边防军人抽屉照曝光 网友:感动心疼</a>
+										</span>
+									</div>
+								</div>
+								<!--第四张下面的图片-->
+								<div class="ypfx ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra7e4ao.html?vfm=f_109_bdxs " target="_blank " title="歼-20机载一体式触摸显示器首次曝光 ">
+											<img src="img/u=1505407031,3727405783&fm=58.jpg " />
+											<span>02:26</span>
+										</a>
+										<i class="tjgz-6 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-6 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra7e4ao.html?vfm=f_109_bdxs " target="_blank " title="歼-20机载一体式触摸显示器首次曝光 ">歼-20机载一体式触摸显示器首次曝光</a>
+										</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!--第二排-->
+					<div class="second ">
+						<ul>
+							<!--第二排第一张图片-->
+							<li class="tp5 ">
+								<!--第二排第一张上面的图片-->
+								<div class="epys ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra788hg.html?vfm=f_109_bdxs " target="_blank " title="歼-20到底用的什么发动机 ">
+											<img src="img/u=410290204,2658936285&fm=58.jpg " />
+											<span>42:04</span>
+										</a>
+										<i class="tjgz-7 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-7 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra788hg.html?vfm=f_109_bdxs " target="_blank " title="歼-20到底用的什么发动机 ">歼-20到底用的什么发动机</a>
+										</span>
+									</div>
+								</div>
+								<!--第二排第一张下面的图片-->
+								<div class="epyx ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra7dwrg.html?vfm=f_109_bdxs " target="_blank " title="【世界异闻录】少女练功走火，喜得逆天长甲 ">
+											<img src="img/u=3013643301,33942325&fm=58.jpg " />
+											<span>01：07</span>
+										</a>
+										<i class="tjgz-8 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-8 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra7dwrg.html?vfm=f_109_bdxs " target="_blank " title="【世界异闻录】少女练功走火，喜得逆天长甲 ">【世界异闻录】少女练功走火，喜得逆天长甲</a>
+										</span>
+									</div>
+								</div>
+							</li>
+							<!--第二排第二张图片-->
+							<li class="tp6 ">
+								<!--第二排第二张上面的图片-->
+								<div class="epes ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra72cmc.html?vfm=f_109_bdxs " target="_blank " title="看一部电影如何真实展现解放军步兵 ">
+											<img src="img/u=3527923208,1666308529&fm=58.jpg " />
+											<span>00:56</span>
+										</a>
+										<i class="tjgz-9 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-9 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra72cmc.html?vfm=f_109_bdxs " target="_blank " title="看一部电影如何真实展现解放军步兵 ">看一部电影如何真实展现解放军步兵</a>
+										</span>
+									</div>
+								</div>
+								<!--第二排第二张下面的图片-->
+								<div class="epex ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra7d78g.html?vfm=f_109_bdxs " target="_blank " title="少将称中国能同时造2艘航母 弹射技术已无瓶颈 ">
+											<img src="img/u=1602907355,3500007176&fm=58.jpg " />
+											<span>02:45</span>
+										</a>
+										<i class="tjgz-10 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-10 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra7d78g.html?vfm=f_109_bdxs " target="_blank " title="少将称中国能同时造2艘航母 弹射技术已无瓶颈 ">少将称中国能同时造2艘航母 弹射技术已无瓶颈</a>
+										</span>
+									</div>
+								</div>
+							</li>
+							<li class="tp7 ">
+								<!--第二排第三张上面的图片-->
+								<div class="epss ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra7fqo4.html?vfm=f_109_bdxs " target="_blank " title="来伤害我呀我准备好了~ ">
+											<img src="img/u=1361344730,2875632588&fm=58.jpg " />
+											<span>02:44</span>
+										</a>
+										<i class="tjgz-11 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-11 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra7fqo4.html?vfm=f_109_bdxs " target="_blank " title="来伤害我呀我准备好了~ ">来伤害我呀我准备好了~</a>
+										</span>
+									</div>
+								</div>
+								<!--第二排第三张下面的图片-->
+								<div class="epsx ">
+									<div class="sstp ">
+										<a href="http://www.iqiyi.com/v_19rra78ir4.html?vfm=f_109_bdxs " target="_blank " title="菲防长否认会成中国附庸 要求加紧军购备战 ">
+											<img src="img/u=3329420582,1229916905&fm=58.jpg " />
+											<span>02:41</span>
+										</a>
+										<i class="tjgz-12 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-12 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+									</div>
+									<div class="js ">
+										<span class="text ">
+											<a class="js-zt " href="http://www.iqiyi.com/v_19rra78ir4.html?vfm=f_109_bdxs " target="_blank " title="菲防长否认会成中国附庸 要求加紧军购备战 ">菲防长否认会成中国附庸 要求加紧军购备战</a>
+										</span>
+									</div>
+								</div>
+							</li>
+							<!--第二排第四张图片-->
+							<li class="tp8 ">
+								<div class="tp-dy ">
+									<a href="http://vip.1905.com/play/716764.shtml?__hz=55a7cf9c71f1c9c4 " target="_blank " title="举起手来1:十面攻敌 ">
+										<img class="image " src="img/u=4263096112,2065697049&fm=58.jpg " />
+										<i class="tp-lb-3 "></i>
+										<i class="tjgz-13 ">
+									 		<span class="gz-zt ">添加关注</span>
+									 	</i>
+										<i class="bgxq-13 ">
+									 		<span class="xq-zt ">不敢兴趣</span>
+									 	</i>
+										<span class="jd ">87:14</span>
+									</a>
+								</div>
+								<div class="js ">
+									<p class="text ">
+										<a class="js-zt " href="http://vip.1905.com/play/716764.shtml?__hz=55a7cf9c71f1c9c4 " target="_blank " title="举起手来1:十面攻敌 ">
+											举起手来1:十面攻敌
+										</a>
+									</p>
+									<p>
+										<span class="score-star ">
+									 			<span class="star-active "></span>
+										</span>
+										<span class="fs ">6.3</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!--设置订阅频道-->
+				<span id="setUp ">
+					<div class="dypd ">
+						<!--已订阅频道-->
+						<div class="ydy ">
+							<h3>已订阅频道</h3>
+							<div class="wdgz ">
+								我的关注
+							</div>
+							<!--关注类别-->
+							<div class="gzpd ">
+								<!--推荐-->
+								<div class="tj lb ">
+									<div class="tj-icon icon "></div>
+									<div class="recommend zt ">推荐</div>
+								</div>
+								<!--导航-->
+								<div class="dh lb ">
+									<div class="dh-icon icon "></div>
+									<div class="navs zt ">导航</div>
+								</div>
+								<!--视频-->
+								<div class="sp lb ">
+									<div class="sp-icon icon "></div>
+									<div class="video zt ">视频</div>
+								</div>
+								<!--购物-->
+								<div class="gw lb ">
+									<div class="gw-icon icon "></div>
+									<div class="shopping zt ">购物</div>
+								</div>
+							</div>
+						</div>
+						<!--未订阅频道-->
+						<div class="wdy ">
+							<h3>未订阅频道</h3>
+							<!--未关注类别-->
+							<div class="wgzpd ">
+								<div class="ty lb ">
+									<div class="w-icon "></div>
+									<div class="zt ">体育</div>
+								</div>
+								<div class="xs lb ">
+									<div class="w-icon "></div>
+									<div class="zt ">小说</div>
+								</div>
+								<div class="yy lb ">
+									<div class="w-icon "></div>
+									<div class="zt ">音乐</div>
+								</div>
+							</div>
+						</div>
+						<!--隐藏频道、情景推荐-->
+						<div class="ycpd ">
+							<a href="# ">
+								<i class="yc-icon "></i>
+								<span>隐藏频道</span>
+							</a>
+							<a href="# ">
+								<i class="qt-icon "></i>
+								<span>情景推荐</span>
+								<i class="qj-icon "></i>
+							</a>
+						</div>
+					</div>
+				</span>
+			</div>
+			</div>
+			<!--返回顶部-->
+			<div class="top ">
+				<span class="hddb ">回到顶部</span>
+				<span class="top-icon "></span>
+			</div>
+
+		</article>
+		<script src="js/jquery.min.js " type="text/javascript " charset="utf-8 "></script>
+		<!--<script src="js/baidu.js " type="text/javascript " charset="utf-8 "></script>-->
+		<script src="js/pattern.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
