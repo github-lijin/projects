@@ -1,0 +1,1727 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "microsoft yahei";
+  width: 100%;
+}
+
+/*头部样式开始*/
+header {
+  height: 60px;
+}
+
+/*头部容器样式*/
+.wrap {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/*容器图片样式*/
+.logo img {
+  float: left;
+  width: 109px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+nav {
+  display: inline-block;
+  position: relative;
+  z-index: 1000;
+}
+
+/*导航栏样式*/
+.wrap nav ul {
+  height: 60px;
+  line-height: 60px;
+}
+
+.wrap nav ul li {
+  float: left;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.wrap nav ul li:hover, .wrap nav ul li:nth-child(1) a {
+  color: green;
+}
+
+.wrap nav ul li:nth-child(2):hover .school {
+  display: block;
+}
+
+/*导航栏样式定位*/
+/*二级菜单样式*/
+.school {
+  position: absolute;
+  top: 60px;
+  height: 264px;
+  width: 280px;
+  background-color: white;
+  font-size: 13px;
+  color: #666;
+  line-height: 46px;
+  padding-left: 18px;
+  display: none;
+  border-top: 1px solid gainsboro;
+  opacity: 1;
+  animation: myfirst 0.8s ease normal;
+  -moz-animation: myfirst 0.8s ease normal;
+  -webkit-animation: myfirst 0.8s ease normal;
+}
+
+.school a {
+  color: gray;
+}
+
+.school a:hover {
+  color: #008000;
+}
+
+.school h4 {
+  background-color: #fafafa;
+}
+
+.school img {
+  height: 13px;
+  margin-right: 10px;
+}
+
+/*二级菜单显示动画*/
+@keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*二级菜单样式定位*/
+.lesson {
+  position: absolute;
+  width: 280px;
+  height: 260px;
+  background-color: white;
+  padding-left: 20px;
+  display: none;
+  border-top: 1px solid gainsboro;
+  opacity: 1;
+  animation: myfirst 0.8s ease normal;
+  -moz-animation: myfirst 0.8s ease normal;
+  -webkit-animation: myfirst 0.8s ease normal;
+}
+
+.wrap nav ul li:nth-child(3):hover .lesson {
+  display: block;
+}
+
+/*二级菜单每一栏的样式*/
+.lesson a {
+  display: block;
+  height: 40px;
+  line-height: 65px;
+  font-size: 14px;
+  color: #666;
+}
+
+.lesson a:hover {
+  color: #008000;
+}
+
+.lesson a span {
+  float: right;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.lesson i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px !important;
+  background: url(../img/allicon.png) 0 0 no-repeat;
+  background-size: 64px 64px;
+}
+
+.lesson .kck-icon {
+  background-position: 0 -13px;
+}
+
+.lesson .zyljt-icon {
+  background-position: -45px 0;
+}
+
+.lesson .zstxt-icon {
+  background-position: -30px -13px;
+}
+
+.lesson .xlkc-icon {
+  background-image: url(../img/xlkc2.png);
+  background-position: 0 0;
+  background-size: 12px 12px;
+}
+
+.lesson .kcbq-icon {
+  background-position: -15px -13px;
+}
+
+.lesson .vip-icon {
+  background-position: -16px 0;
+}
+
+/*二级菜单雪碧图的样式*/
+/*二级菜单雪碧图定位显示*/
+/*二级菜单雪碧图的样式*/
+/*二级菜单雪碧图的定位显示*/
+.wrap nav ul li:nth-child(4):hover .sq-lesson {
+  display: block;
+}
+
+/*二级菜单的样式定位*/
+.sq-lesson {
+  position: absolute;
+  width: 280px;
+  height: 180px;
+  background-color: white;
+  padding-left: 20px;
+  display: none;
+  border-top: 1px solid gainsboro;
+  opacity: 1;
+  animation: myfirst 0.8s ease normal;
+  -moz-animation: myfirst 0.8s ease normal;
+  -webkit-animation: myfirst 0.8s ease normal;
+}
+
+.sq-lesson a {
+  display: block;
+  line-height: 45px;
+  font-size: 14px;
+  color: #666;
+}
+
+.sq-lesson a:hover {
+  color: green;
+}
+
+.sq-lesson i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px !important;
+  background: url(../img/allicon.png) 0 0 no-repeat;
+  background-size: 64px 64px;
+}
+
+.sq-lesson .jswd-icon {
+  background-position: 0 -27px;
+}
+
+.sq-lesson .wiki-icon {
+  background-position: -29px -27px;
+}
+
+.sq-lesson .sq-icon {
+  background-position: 0 2px;
+}
+
+.sq-lesson .zyxz-icon {
+  background-position: -30px 0;
+}
+
+.sq-lesson span {
+  float: right;
+  margin-right: 15px;
+}
+
+/*二级菜单每一栏的样式*/
+/*二级菜单雪碧图的样式*/
+/*二级菜单雪碧图定位显示*/
+/*二级菜单右边数字的定位*/
+/*头部右边用户的样式定位*/
+user .icon-box {
+  position: relative;
+  z-index: 1000;
+  float: right;
+  width: 200px;
+  height: 60px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+user .icon-box span {
+  display: inline-block;
+  width: 17px;
+  height: 60px;
+  margin-top: 22px;
+  margin-left: 25px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+user .icon-box .search-icon {
+  background: url(../img/search-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+
+user .icon-box .app-icon {
+  background: url(../img/app-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+
+user .icon-box .logo-icon {
+  background: url(../img/login-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+
+user .icon-box .search-icon:hover {
+  background: url(../img/search-icon2.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+
+user .icon-box .app-icon:hover {
+  background: url(../img/绿色极客APP下载.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+
+user .icon-box .app-icon:hover .jkappxz {
+  display: block;
+}
+
+user .icon-box .jkappxz {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  display: none;
+  border-top: 1px solid gainsboro;
+  opacity: 1;
+  animation: myfirst 0.8s ease normal;
+  -moz-animation: myfirst 0.8s ease normal;
+  -webkit-animation: myfirst 0.8s ease normal;
+}
+
+user .icon-box .jkappxz img {
+  width: 120px;
+  height: 100%;
+}
+
+/*划过用户显示的图片*/
+/*用户的二级菜单的样式定位*/
+/*二级菜单顶上的小图标的样式和变换*/
+.jkappxz .top-icon {
+  position: absolute;
+  top: -8px;
+  right: 50px;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  display: inline-block;
+  background: #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+/*用户二级菜单的样式定位*/
+user .icon-box .rt-list {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 120px;
+  height: 196px;
+  background: white;
+  display: none;
+  border-top: 1px solid gainsboro;
+  opacity: 1;
+  animation: myfirst 0.8s ease normal;
+  -moz-animation: myfirst 0.8s ease normal;
+  -webkit-animation: myfirst 0.8s ease normal;
+}
+
+user .icon-box span:nth-child(3):hover .rt-list {
+  display: block;
+}
+
+/*二级菜单的每一栏的样式*/
+.rt-list dd {
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  height: 36px;
+  line-height: 58px;
+}
+
+.rt-list dd a {
+  color: gray;
+}
+
+.rt-list dd a:hover {
+  color: #008000;
+}
+
+.rt-list dd i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  background: url(../img/allicon2.png) 0 0 no-repeat;
+  background-size: 64px 64px;
+}
+
+.rt-list .xxzx-icon {
+  background-position: -16px -15px;
+}
+
+.rt-list .grzy-icon {
+  background-position: -45px -1px;
+}
+
+.rt-list .xxtz-icon {
+  background-position: -16px -30px;
+}
+
+.rt-list .zhsz-icon {
+  background-position: -30px -1px;
+}
+
+.rt-list .top-icon {
+  display: block;
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  display: inline-block;
+  background: #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+/*二级菜单的雪碧图的样式*/
+/*二级菜单的定位显示*/
+/*二级菜单顶上的小图标的变换与定位和样式*/
+/*导航栏旁边的小图标的样式与变换*/
+.icon {
+  width: 8px;
+  height: 8px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  border-top: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  display: inline-block;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform-origin: 4px 4px;
+}
+
+/*划过导航栏旁边小图标显示的变换与动画*/
+.wrap nav li:hover i.icon {
+  margin-bottom: -2px;
+  border-top: 1px solid #35b558;
+  border-left: 1px solid #35b558;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  animation: rotate 1s ease normal;
+  -moz-animation: rotate 1s ease normal;
+  -webkit-animation: rotate 1s ease normal;
+}
+
+/*导航栏旁边的小图标的动画*/
+@keyframes rotate {
+  0% {
+    margin-bottom: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+  }
+  10% {
+    margin-bottom: -2px;
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+}
+
+/*头部导航栏结束*/
+/*内容部分开始*/
+#pager {
+  width: 100%;
+  height: 2859px;
+  background: gainsboro;
+}
+
+/*极客横幅的样式*/
+.jkbanner {
+  position: relative;
+  height: 525px;
+  min-width: 1000px;
+  box-sizing: border-box;
+  text-align: center;
+  background: url(../img/sp_56c863c.jpg) no-repeat center/1920px 540px;
+}
+
+.jkbanner .vediocontainer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 525px;
+  overflow: hidden;
+}
+
+.jkbanner .vediocontainer .index-video {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}
+
+.jkbanner .bannerinfo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 525px;
+}
+
+/*视频容器的样式*/
+/*视频的定位*/
+/*视频表层容器的样式与定位*/
+/*标题样式与定位*/
+.bannerinfo h1 {
+  font-size: 35px;
+  color: white;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.bannerinfo p {
+  font-size: 13px;
+  color: #FAFAFA;
+  line-height: 21px;
+}
+
+.bannerinfo .bannerdownload {
+  height: 44px;
+  margin-top: 48px;
+}
+
+/*P标签的样式*/
+/*下载容器的定位*/
+/*下载容器a标签的样式*/
+.jkbanner .bannerdownload a {
+  display: inline-block;
+  width: 141px;
+  height: 44px;
+  margin: 0 20px;
+}
+
+.jkbanner .bannerdownload a:hover {
+  background-color: dimgray;
+}
+
+/*划过下载显示的背景色*/
+/*安卓下载的背景图片*/
+.bannerinfo .bannerdownload .androiddownload {
+  background: url(../img/anddown_92313c1.png) no-repeat center/141px 44px;
+}
+
+.bannerinfo .bannerdownload .iosdownload {
+  background: url(../img/iosdown_0813309.png) no-repeat center/141px 44px;
+}
+
+.bannerinfo span {
+  display: block;
+  margin-top: 45px;
+  font-size: 12px;
+  color: #FAFAFA;
+}
+
+.bannerinfo .bannerstatus {
+  height: 38px;
+  margin-top: 15px;
+}
+
+.bannerinfo .bannerstatus a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin: 0 20px;
+}
+
+.bannerinfo .bannerstatus .wechatlogin {
+  background: url(../img/weixinlogin_204d5be.png) no-repeat center/38px 38px;
+  -webkit-transition: .5s ease-in;
+}
+
+.bannerinfo .bannerstatus .qqlogin {
+  background: url(../img/qqlogin_43fbf38.png) no-repeat center/38px 38px;
+  -webkit-transition: .5s ease-in;
+}
+
+.bannerinfo .bannerstatus .weibologin {
+  background: url(../img/weibologin_7cb8c71.png) no-repeat center/38px 38px;
+  -webkit-transition: .5s ease-in;
+}
+
+.bannerinfo .bannerstatus .phonelogin {
+  background: url(../img/phonelogin_39c73f9.png) no-repeat center/38px 38px;
+  -webkit-transition: .5s ease-in;
+}
+
+.bannerinfo .bannerstatus .wechatlogin:hover {
+  background: url(../img/weixinloginhover_acca8e3.png) no-repeat center/38px 38px;
+}
+
+.bannerinfo .bannerstatus .qqlogin:hover {
+  background: url(../img/qqloginhover_fd0f74b.png) no-repeat center/38px 38px;
+}
+
+.bannerinfo .bannerstatus .weibologin:hover {
+  background: url(../img/weibologinhover_0c48361.png) no-repeat center/38px 38px;
+}
+
+.bannerinfo .bannerstatus .phonelogin:hover {
+  background: url(../img/phoneloginhover_d5ddac1.png) no-repeat center/38px 38px;
+}
+
+/*苹果下载的背景图片*/
+/*span标签的定位于样式*/
+/*登录图标容器的样式定位*/
+/*登录图标的样式与定位*/
+/*微信登录图片*/
+/*QQ登录图片*/
+/*微博登录图片*/
+/*手机登录图片*/
+/*划过微信显示的hover图片*/
+/*划过QQ显示的hover图片*/
+/*划过微博显示的hover图片*/
+/*划过手机显示的hover图片*/
+/*上面三个白框的样式与定位*/
+.bannercard {
+  position: relative;
+  top: 36px;
+  height: 240px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*第一个白框的样式与定位*/
+.collegecard {
+  float: left;
+  height: 240px;
+  width: 320px;
+  background: white;
+}
+
+.bannercard .cardinfo {
+  height: 130px;
+  background: #f9f9f9;
+}
+
+.bannercard .cardinfo span {
+  display: block;
+  height: 50px;
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+  line-height: 50px;
+}
+
+.bannercard p {
+  height: 80px;
+  padding: 10px 17px;
+  text-align: left;
+  font-size: 13px;
+  color: #444;
+  line-height: 21px;
+  border-top: 1px solid #eee;
+}
+
+.bannercard .collegecard .collegeclass {
+  height: 110px;
+  padding: 17px 10px;
+}
+
+.bannercard .collegecard .collegeclass ul {
+  height: 100%;
+}
+
+.bannercard .collegecard .collegeclass ul li {
+  float: left;
+  height: 100%;
+  width: 25%;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.bannercard .collegecard .collegeclass ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.bannercard .collegecard .collegeclass ul li div {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  -webkit-transition: border .5s;
+}
+
+.bannercard .collegecard .collegeclass ul li span {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+  -webkit-transition: color .5s;
+}
+
+.bannercard .collegecard .collegeclass ul li:hover span {
+  color: #35b558;
+}
+
+.bannercard .collegecard .collegeclass ul li:hover .webcard {
+  border-color: red;
+}
+
+.bannercard .collegecard .collegeclass ul li:hover .pythoncard {
+  border-color: orange;
+}
+
+.bannercard .collegecard .collegeclass ul li:hover .gocard {
+  border-color: aqua;
+}
+
+.bannercard .collegecard .collegeclass ul li:hover .ioscard {
+  border-color: gray;
+}
+
+.bannercard .collegecard .collegeclass ul li a .webcard {
+  background: url(../img/cardhtml5_c4de6b8.jpg) no-repeat center/26px 35px;
+}
+
+.bannercard .collegecard .collegeclass ul li a .pythoncard {
+  background: url(../img/cardpython_46dafa5.png) no-repeat center/35px 35px;
+}
+
+.bannercard .collegecard .collegeclass ul li a .gocard {
+  background: url(../img/cardgo_f7d5603.png) no-repeat center/25px 35px;
+}
+
+.bannercard .collegecard .collegeclass ul li a .ioscard {
+  background: url(../img/cardios_1b210b7.jpg) no-repeat center/30px 35px;
+}
+
+/*span标签的样式定位*/
+/*p标签的样式*/
+/*li标签的样式定位*/
+/*a标签的样式*/
+/*图片的div的样式*/
+/*span标签的样式定位*/
+/*划过文字显示的颜色*/
+/*划过图片显示边框的颜色*/
+/*第一个框的图片*/
+/*第二个白框的样式*/
+.librarycard {
+  float: left;
+  height: 240px;
+  width: 320px;
+  margin: 0 20px;
+  background: white;
+}
+
+.librarycard .cardinfo {
+  background: #F9F9F9;
+  height: 130px;
+}
+
+.bannercard .librarycard .libraryclass {
+  height: 110px;
+  padding: 17px 10px;
+}
+
+.bannercard .librarycard .libraryclass ul li {
+  float: left;
+  width: 50%;
+  height: 100%;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.bannercard .librarycard .libraryclass ul li a {
+  width: 100%;
+  height: 100%;
+}
+
+.bannercard .librarycard .libraryclass div {
+  display: inline-block;
+  width: 100%;
+  padding-top: 35px;
+  font-size: 13px;
+  color: #444;
+}
+
+.bannercard .librarycard .libraryclass li :hover .videocard {
+  color: #008000;
+  background: url(../img/cardvideohover_a616ae2.png) no-repeat top center/30px 30px;
+}
+
+.bannercard .librarycard .libraryclass li :hover .wikicard {
+  color: #008000;
+  background: url(../img/cardwikihover_6974141.png) no-repeat top center/25px 26px;
+}
+
+.bannercard .librarycard .libraryclass ul li a .videocard {
+  background: url(../img/cardvideo_744765b.jpg) no-repeat top center/30px 30px;
+}
+
+.bannercard .librarycard .libraryclass span {
+  display: block;
+  margin-top: 8px;
+  color: #666;
+  font-size: 12px;
+}
+
+.bannercard .librarycard .libraryclass ul li a .wikicard {
+  background: url(../img/cardwiki_5eaea4b.jpg) no-repeat top center/25px 26px;
+}
+
+/*第二个白框li标签样式定位*/
+/*a标签样式*/
+/*div的样式定位*/
+/*第三个白框的样式*/
+.communitycard {
+  float: left;
+  height: 240px;
+  width: 320px;
+  background: white;
+}
+
+.communityclass {
+  height: 110px;
+  width: 100%;
+  padding: 17px 10px;
+}
+
+/*第三个白框li标签的样式定位*/
+.communitycard .communityclass ul li {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.communitycard .communityclass ul li div {
+  width: 100%;
+  padding-top: 35px;
+  font-size: 13px;
+  color: #444;
+}
+
+/*div的样式定位*/
+.communityclass span {
+  display: block;
+  margin-top: 8px;
+  color: #666;
+  font-size: 12px;
+}
+
+/*li标签里面的图片*/
+.communitycard .communityclass ul li .xuecard {
+  background: url(../img/cardxue_99b0a45.jpg) no-repeat top center/33px 28px;
+}
+
+.communitycard .communityclass ul li .jiaocard {
+  background: url(../img/cardjiao_d70bff6.jpg) no-repeat top center/36px 27px;
+}
+
+.communitycard .communityclass ul li .bucard {
+  background: url(../img/cardbu_1d16287.jpg) no-repeat top center/22px 30px;
+}
+
+/*就业学习栏样式定位*/
+.jkjiuye {
+  position: relative;
+  width: 1000px;
+  height: 330px;
+  margin: 0 auto;
+  margin-top: 140px;
+  box-sizing: border-box;
+}
+
+.jkjiuye ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkjiuye ul li {
+  float: left;
+  background: #fff;
+}
+
+/*li标签定位*/
+/*左边栏样式*/
+.h2container {
+  width: 230px;
+  height: 330px;
+  background: white;
+}
+
+.h2container h2 {
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 19px;
+  border-left: 2px solid #35b558;
+}
+
+.h2container .h2text {
+  height: 20px;
+  padding-left: 17px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+
+.h2container p {
+  font-size: 12px;
+  color: #666;
+  line-height: 22px;
+  padding-left: 17px;
+}
+
+.h2container .h2img {
+  text-align: center;
+  height: 155px;
+}
+
+.h2container .h2img img {
+  width: 120px;
+  height: 88px;
+  margin-top: 38px;
+}
+
+.h2container span {
+  display: block;
+  width: 62px;
+  height: 18px;
+  margin-left: 17px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  border: 1px solid #eee;
+  line-height: 16px;
+  border-radius: 2px;
+  color: gray;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/*h2标签样式定位*/
+/*p标签意思定位*/
+/*图片样式*/
+/*图片样式*/
+/*span标签样式定位*/
+.jkjiuye ul .h2container span:before {
+  background: #35b558 url(../img/h2icon_a96e146.png) no-repeat center/15px 14px;
+}
+
+section .h2container span:before {
+  content: '适用于';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: #2d85ca url(../img/h2icon_a96e146.png) no-repeat center/15px 14px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-right: 4px;
+}
+
+/*第二三个li标签样式定位*/
+.jkjiuye ul li:nth-child(2), .jkjiuye ul li:nth-child(3) {
+  width: 371px;
+  height: 180px;
+  margin-bottom: 14px;
+  margin-left: 14px;
+}
+
+.jkjiuye ul li:nth-child(4), .jkjiuye ul li:nth-child(5), .jkjiuye ul li:nth-child(6) {
+  width: 243px;
+  height: 135px;
+  margin-left: 13.5px;
+}
+
+.jkjiuye ul li a {
+  display: block;
+  height: 100%;
+}
+
+.jkjiuye ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/*第四五六个li标签样式定位*/
+/*基础学习栏样式定位*/
+.jkbase {
+  position: relative;
+  height: 330px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.jkbase ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkbase ul li {
+  float: left;
+  background: #fff;
+}
+
+.jkbase .h2container h2 {
+  border-left: 2px solid dodgerblue;
+}
+
+.jkbase ul li:nth-child(2), .jkbase ul li:nth-child(3), .jkbase ul li:nth-child(4) {
+  margin-bottom: 14px;
+}
+
+.jkbase ul li:nth-child(2), .jkbase ul li:nth-child(3), .jkbase ul li:nth-child(5), .jkbase ul li:nth-child(6) {
+  width: 243px;
+  height: 158px;
+}
+
+.jkbase ul li:nth-child(4), .jkbase ul li:nth-child(7) {
+  width: 242px;
+  height: 158px;
+}
+
+.jkbase ul li:nth-child(2), .jkbase ul li:nth-child(3), .jkbase ul li:nth-child(4), .jkbase ul li:nth-child(5), .jkbase ul li:nth-child(6), .jkbase ul li:nth-child(7) {
+  margin-left: 14px;
+}
+
+.jkbase ul li a {
+  display: block;
+  height: 100%;
+}
+
+.jkbase ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/*ul标签的样式*/
+/*li标签定位*/
+/*第二三四个li标签定位*/
+/*第二三五六个li标签的样式*/
+/*第四七个li标签的样式*/
+/*第二三四个li标签的定位*/
+/*第五六七个li标签的定位*/
+/*图片的样式*/
+/*专项提高栏样式定位*/
+.jksku {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 330px;
+  position: relative;
+}
+
+.jksku .h2container h2 {
+  border-left: 2px solid orangered;
+}
+
+.jksku ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jksku ul li {
+  float: left;
+}
+
+.jksku ul li:nth-child(2), .jksku ul li:nth-child(3), .jksku ul li:nth-child(4), .jksku ul li:nth-child(5) {
+  width: 371px;
+  height: 158px;
+}
+
+.jksku ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.jksku ul li:nth-child(2), .jksku ul li:nth-child(3) {
+  margin-left: 14px;
+  margin-bottom: 14px;
+}
+
+.jksku ul li:nth-child(4), .jksku ul li:nth-child(5) {
+  margin-left: 14px;
+}
+
+/*ul标签样式*/
+/*li标签定位*/
+/*第二三四五个li标签的样式*/
+/*图片样式*/
+/*第二三个li标签定位*/
+/*第四五个li标签定位*/
+/*我是技术大咖栏的样式定位*/
+.jkdk {
+  position: relative;
+  height: 158px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.jkdk ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkdk ul .h2container {
+  width: 230px;
+  height: 158px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.jkdk ul .h2container h2 {
+  border-left: 2px solid brown;
+}
+
+.jkdk ul .h2container .h2img {
+  height: 88px;
+}
+
+.jkdk ul .h2container .h2img img {
+  width: 105px;
+  height: 72px;
+  margin-top: 17px;
+}
+
+.jkdk ul li {
+  float: left;
+}
+
+.jkdk ul li:nth-child(2), .jkdk ul li:nth-child(3) {
+  width: 371px;
+  height: 158px;
+  margin-left: 14px;
+}
+
+.jkdk ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/*ul标签的样式*/
+/*内容样式*/
+/*h2标签左边框样式*/
+/*图片样式*/
+/*图片样式定位*/
+/*第二三个li标签的样式定位*/
+/*li标签定位*/
+/*弹琵琶样式*/
+/*我是纯小白栏的样式定位*/
+.jkbai {
+  position: relative;
+  height: 158px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.jkbai ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkbai ul .h2container {
+  width: 230px;
+  height: 158px;
+  background: #fff;
+  text-align: left;
+}
+
+.jkbai ul li {
+  float: left;
+  width: 243px;
+  height: 158px;
+  background: #fff;
+  text-align: center;
+}
+
+.jkbai ul .h2container h2 {
+  border-left: 2px solid #35b558;
+}
+
+.jkbai ul .h2container .h2img {
+  height: 88px;
+}
+
+.jkbai ul .h2container .h2img img {
+  width: 95px;
+  height: 72px;
+  margin-top: 17px;
+}
+
+.jkbai ul li:nth-child(2), .jkbai ul li:nth-child(3) {
+  width: 243px;
+  height: 158px;
+}
+
+.jkbai ul li:nth-child(4) {
+  width: 242px;
+  height: 158px;
+}
+
+.jkbai ul li:nth-child(2), .jkbai ul li:nth-child(3), .jkbai ul li:nth-child(4) {
+  margin-left: 14px;
+}
+
+.jkbai ul li .baiimg {
+  display: block;
+  height: 55px;
+  margin-top: 30px;
+}
+
+.jkbai ul li:nth-child(2) img {
+  width: 41px;
+  height: 55px;
+}
+
+.jkbai ul li span {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.jkbai ul li p {
+  font-size: 12px;
+  color: #666;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+.jkbai ul li:nth-child(3) img {
+  width: 55px;
+  height: 48px;
+}
+
+.jkbai ul li:last-child img {
+  width: 55px;
+  height: 55px;
+}
+
+/*ul标签样式*/
+/*h2容器的样式*/
+/*li标签的定位样式*/
+/*h2左边边框样式*/
+/*图片容器高度*/
+/*图片定位样式*/
+/*第二三个li标签的样式*/
+/*第四个li标签的样式*/
+/*第二三四个li标签定位*/
+/*图片容器样式定位*/
+/*a标签样式*/
+/*图片样式*/
+/*span标签样式定位*/
+/*p标签样式定位*/
+/*第三个li标签图片的样式*/
+/*第四个li标签图片样式*/
+/*他们的故事栏样式定位*/
+.jkstudent {
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.jkstudent ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkstudent ul .h2container {
+  text-align: left;
+  width: 230px;
+  height: 500px;
+  background: #fff;
+}
+
+.jkstudent ul li {
+  float: left;
+  background: #ccc;
+  width: 56px;
+  height: 56px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.jkstudent ul .h2container ul {
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.jkstudent ul .h2container ul li {
+  float: left;
+  width: 56px;
+  height: 56px;
+  background: #ccc;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.jkstudent ul .h2container ul li a img {
+  width: 100%;
+  height: 100%;
+}
+
+.jkstudent ul li:nth-child(2), .jkstudent ul li:nth-child(3), .jkstudent ul li:nth-child(5), .jkstudent ul li:nth-child(6) {
+  background: #fff;
+  width: 243px;
+  height: 243px;
+  text-align: center;
+}
+
+.jkstudent ul li:nth-child(4), .jkstudent ul li:nth-child(7) {
+  background: #fff;
+  width: 242px;
+  height: 243px;
+  text-align: center;
+  margin-right: 0;
+}
+
+.jkstudent > ul > li .s-pic {
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.jkstudent > ul > li .s-name {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.jkstudent > ul > li .s-job {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.jkstudent > ul > li .s-status {
+  font-size: 12px;
+  color: gray;
+  margin-top: 35px;
+}
+
+.jkstudent > ul > li .s-comp {
+  margin-top: 5px;
+  height: 20px;
+}
+
+/*ul标签样式*/
+/*h2容器样式*/
+/*li标签定位样式*/
+/*h2容器里li标签定位*/
+/*二级li标签定位样式*/
+/*图片样式*/
+/*第二三五六个li标签样式*/
+/*第四七个li标签样式*/
+/*头像标签样式定位*/
+/*名字标签样式定位*/
+/*工作标签样式定位*/
+/*已入职标签样式定位*/
+/*图片样式定位*/
+/*让每个人栏样式定位*/
+.jkorganization {
+  position: relative;
+  width: 1000px;
+  height: 158px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.jkorganization ul {
+  width: 100%;
+  height: 100%;
+}
+
+.jkorganization ul .h2container {
+  width: 230px;
+  height: 158px;
+  background: #fff;
+  text-align: left;
+}
+
+.jkorganization ul .h2container h2 {
+  border-left: 2px solid saddlebrown;
+}
+
+.jkorganization ul li {
+  float: left;
+  margin-right: 14px;
+  background: #fff;
+  width: 243px;
+  height: 158px;
+  text-align: center;
+}
+
+.jkorganization ul li:last-child {
+  width: 242px;
+  height: 158px;
+  margin-right: 0;
+}
+
+.jkorganization ul > li .baiimg {
+  height: 55px;
+  margin-top: 30px;
+}
+
+.jkorganization ul > li img {
+  width: 55px;
+  height: 48px;
+}
+
+.jkorganization ul > li span {
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+}
+
+.jkorganization ul > li p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/*ul标签样式*/
+/*h2容器样式*/
+/*h2标题左边框样式*/
+/*li标签样式定位*/
+/*最后一个li标签样式定位*/
+/*图片容器样式定位*/
+/*图片样式*/
+/*span标签样式定位*/
+/*p标签样式定位*/
+/*页脚样式*/
+.footer {
+  min-width: 1000px;
+  border-top: 1px solid #e4e4e4;
+  background: #fff;
+}
+
+/*容器定位样式*/
+.jkinfo-block .jkinfo {
+  position: relative;
+  width: 776px;
+  height: 215px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f5f5f5;
+  padding-left: 224px;
+  padding-top: 25px;
+}
+
+.jkinfo-block .jkinfo .jk-logo {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  display: inline-block;
+  width: 160px;
+}
+
+.jkinfo-block .jkinfo .jk-logo img {
+  width: 109px;
+  height: 40px;
+  display: block;
+}
+
+.jkinfo-block .jkinfo .jk-logo p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}
+
+/*logo定位样式*/
+/*图片样式*/
+/*p标签样式定位*/
+/*dl样式定位*/
+.jkinfo dl {
+  width: 135px;
+  color: #808080;
+  float: left;
+}
+
+.jkinfo dl dt {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.jkinfo dl dd {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.jkinfo dl dd a {
+  color: #999999;
+}
+
+.jkinfo dl dd a:hover {
+  color: #008000;
+}
+
+/*dl标题样式*/
+/*dd标签样式*/
+/*a标签样式*/
+/*服务热线内容样式定位*/
+.footer .jk-down {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  display: inline-block;
+  width: 175px;
+  text-align: left;
+}
+
+.footer .jk-down .hot-tel {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer .jk-down .down-ios {
+  background: url(../img/icon-down-ios.png) no-repeat 0 0;
+  background-size: 30px 30px;
+}
+
+.footer .jk-down .down-and {
+  background: url(../img/icon-down-and.png) no-repeat 0 0;
+  background-size: 30px 30px;
+}
+
+.footer .jk-down .downcon {
+  position: relative;
+  display: inline-block;
+  width: 86px;
+  height: 30px;
+  border: 1px solid #eeeeee;
+  margin-bottom: 10px;
+  line-height: 30px;
+  color: #808080;
+  font-size: 13px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.footer .jk-down .downcon img {
+  position: absolute;
+  top: -157px;
+  left: 12px;
+  z-index: 2;
+  display: none;
+  width: 115px;
+  height: 153px;
+}
+
+.footer .jk-down .downcon:hover img {
+  display: block;
+}
+
+.footer .copyright {
+  font-size: 12px;
+  color: #999;
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer .copyright strong {
+  font-weight: 800;
+}
+
+.footer .copyright a {
+  color: #999;
+}
+
+.footer .copyright strong a:hover {
+  color: #008000;
+}
+
+.footer .copyright a.down-sina {
+  background: url(../img/icon-down-sina.png) no-repeat;
+  background-size: 20px 15px;
+  height: 15px;
+  width: 20px;
+  float: right;
+  margin-right: 10px;
+}
+
+.footer .copyright a.down-wechat {
+  float: right;
+  height: 15px;
+  width: 20px;
+  background: url(../img/icon-down-wechat.png) no-repeat;
+  background-size: 18px 15px;
+}
+
+/*苹果安卓字体样式定位*/
+/*二级菜单图片样式定位*/
+/*最下面字体样式定位*/
+/*新浪图片样式定位*/
+/*微信图片样式定位*/
+.gotop {
+  position: fixed;
+  left: 50%;
+  margin-left: 510px;
+  bottom: 50px;
+  width: 34px;
+  text-align: center;
+  z-index: 2000;
+}
+
+.gotop .top {
+  width: 34px;
+  height: 34px;
+  display: block;
+  background: url(../img/gotop.jpg) no-repeat;
+  background-size: 34px 103px;
+}
+
+.gotop span .top:hover {
+  background: url(../img/gotop2.jpg);
+  background-size: 34px 103px;
+  width: 34px;
+  height: 34px;
+}
+
+.gotop span .jk-app {
+  position: relative;
+  display: block;
+  background: #f7f7f7 url(../img/phone-1.png) center center no-repeat;
+  background-size: 12px 24px;
+  width: 34px;
+  height: 35px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/*二级菜单*/
+.appewm {
+  position: absolute;
+  z-index: 2100;
+  left: -126px;
+  top: -70px;
+  display: none;
+  width: 126px;
+  height: 159px;
+  background: url(../img/appewm.png) center center no-repeat;
+  background-size: 100%;
+}
+
+.diaocha {
+  position: relative;
+  display: block;
+  width: 34px;
+  height: 34px;
+  background: url(../img/icon-down-wechat.png) no-repeat;
+}
+
+.gotop .kefu {
+  position: relative;
+  display: block;
+  background: #f7f7f7 url(../img/kfu1.png) center center no-repeat;
+  width: 34px;
+  height: 35px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.gotop .kefu .kf {
+  position: absolute;
+  left: -190px;
+  display: none;
+  width: 180px;
+  padding: 5px;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+/*二级菜单*/
