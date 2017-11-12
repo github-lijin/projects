@@ -1,0 +1,2086 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+body {
+	font-family: "microsoft yahei";
+	width: 100%;
+	background: #ECECEC;
+}
+
+
+/*头部样式*/
+
+header {
+	height: 60px;
+	background: #FFFFFF;
+}
+
+nav {
+	display: inline-block;
+	position: relative;
+	z-index: 1000;
+}
+
+
+/*头部容器样式*/
+
+.wrap {
+	height: 60px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*容器图片样式*/
+
+.logo img {
+	float: left;
+	width: 109px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+
+/*导航栏样式*/
+
+.wrap nav ul {
+	height: 60px;
+	line-height: 60px;
+}
+
+
+/*导航栏样式定位*/
+
+.wrap nav ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 50px;
+	cursor: pointer;
+	list-style: none;
+}
+
+.wrap nav ul li:hover {
+	color: green;
+}
+
+.wrap nav ul li:nth-child(1) a {
+	color: green;
+}
+
+.wrap nav ul li a {
+	text-decoration: none;
+}
+
+.wrap nav ul li:nth-child(2):hover .school {
+	display: block;
+}
+
+.school a:hover {
+	color: #008000;
+}
+
+
+/*二级菜单样式*/
+
+.school {
+	position: absolute;
+	top: 60px;
+	height: 264px;
+	width: 280px;
+	background-color: white;
+	font-size: 13px;
+	color: #666;
+	line-height: 46px;
+	padding-left: 18px;
+	display: none;
+	border-top: 1px solid gainsboro;
+	opacity: 1;
+	animation: myfirst 0.8s ease normal;
+	-moz-animation: myfirst 0.8s ease normal;
+	-webkit-animation: myfirst 0.8s ease normal;
+}
+
+.school a {
+	color: gray;
+}
+
+.school img {
+	height: 13px;
+	margin-right: 10px;
+}
+
+
+/*二级菜单显示动画*/
+
+@keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Opera */
+
+@-o-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/*二级菜单样式定位*/
+
+.lesson {
+	position: absolute;
+	width: 280px;
+	height: 260px;
+	background-color: white;
+	padding-left: 20px;
+	display: none;
+	border-top: 1px solid gainsboro;
+	opacity: 1;
+	animation: myfirst 0.8s ease normal;
+	-moz-animation: myfirst 0.8s ease normal;
+	-webkit-animation: myfirst 0.8s ease normal;
+}
+
+
+/*二级菜单显示动画*/
+
+@keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Opera */
+
+@-o-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.wrap nav ul li:nth-child(3):hover .lesson {
+	display: block;
+}
+
+.lesson a:hover {
+	color: #008000;
+}
+
+
+/*二级菜单每一栏的样式*/
+
+.lesson a {
+	display: block;
+	height: 40px;
+	line-height: 65px;
+	font-size: 14px;
+	color: #666;
+}
+
+.lesson a span {
+	float: right;
+	height: 40px;
+	margin-right: 15px;
+}
+
+
+/*二级菜单雪碧图的样式*/
+
+.lesson i {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px!important;
+	background: url(../img/allicon.png) 0 0 no-repeat;
+	background-size: 64px 64px;
+}
+
+
+/*二级菜单雪碧图定位显示*/
+
+.lesson .kck-icon {
+	background-position: 0 -13px;
+}
+
+.lesson .zyljt-icon {
+	background-position: -45px 0;
+}
+
+.lesson .zstxt-icon {
+	background-position: -30px -13px;
+}
+
+
+/*二级菜单雪碧图的样式*/
+
+.lesson .xlkc-icon {
+	background-image: url(../img/xlkc2.png);
+	background-position: 0 0;
+	background-size: 12px 12px;
+}
+
+
+/*二级菜单雪碧图的定位显示*/
+
+.lesson .kcbq-icon {
+	background-position: -15px -13px;
+}
+
+.lesson .vip-icon {
+	background-position: -16px 0;
+}
+
+.wrap nav ul li:nth-child(4):hover .sq-lesson {
+	display: block;
+}
+
+
+/*二级菜单的样式定位*/
+
+.sq-lesson {
+	position: absolute;
+	width: 280px;
+	height: 180px;
+	padding-left: 20px;
+	display: none;
+	background-color: white;
+	border-top: 1px solid gainsboro;
+	opacity: 1;
+	animation: myfirst 0.8s ease normal;
+	-moz-animation: myfirst 0.8s ease normal;
+	-webkit-animation: myfirst 0.8s ease normal;
+}
+
+
+/*二级菜单显示的动画*/
+
+@keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Opera */
+
+@-o-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.sq-lesson a:hover {
+	color: green;
+}
+
+
+/*二级菜单每一栏的样式*/
+
+.sq-lesson a {
+	display: block;
+	line-height: 45px;
+	font-size: 14px;
+	color: #666;
+}
+
+
+/*二级菜单雪碧图的样式*/
+
+.sq-lesson i {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px!important;
+	background: url(../img/allicon.png) 0 0 no-repeat;
+	background-size: 64px 64px;
+}
+
+
+/*二级菜单雪碧图定位显示*/
+
+.sq-lesson .jswd-icon {
+	background-position: 0 -27px;
+}
+
+.sq-lesson .wiki-icon {
+	background-position: -29px -27px;
+}
+
+.sq-lesson .sq-icon {
+	background-position: 0 2px;
+}
+
+.sq-lesson .zyxz-icon {
+	background-position: -30px 0;
+}
+
+
+/*二级菜单右边数字的定位*/
+
+.sq-lesson span {
+	float: right;
+	margin-right: 15px;
+}
+
+
+/*头部右边用户的样式定位*/
+
+user .icon-box {
+	position: relative;
+	z-index: 1000;
+	float: right;
+	width: 200px;
+	height: 60px;
+	/*   background: orchid;*/
+	text-align: right;
+	padding-right: 10px;
+}
+
+user .icon-box span {
+	display: inline-block;
+	width: 17px;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 25px;
+	cursor: pointer;
+	margin-top: 22px;
+}
+
+user .icon-box .search-icon {
+	background: url(../img/search-icon.png)0 0 no-repeat;
+	background-size: 17px 17px;
+}
+
+user .icon-box .app-icon {
+	background: url(../img/app-icon.png)0 0 no-repeat;
+	background-size: 17px 17px;
+}
+
+user .icon-box .logo-icon {
+	background: url(../img/login-icon.png)0 0 no-repeat;
+	background-size: 17px 17px;
+}
+
+
+/*划过用户显示的图片*/
+
+user .icon-box .search-icon:hover {
+	background: url(../img/search-icon2.png)0 0 no-repeat;
+	background-size: 17px 17px;
+}
+
+user .icon-box .app-icon:hover {
+	background: url(../img/绿色极客APP下载.png)0 0 no-repeat;
+	background-size: 17px 17px;
+}
+
+user .icon-box .app-icon:hover .jkappxz {
+	display: block;
+}
+
+
+/*用户的二级菜单的样式定位*/
+
+user .icon-box .jkappxz {
+	position: absolute;
+	top: 60px;
+	right: 10px;
+	display: none;
+	border-top: 1px solid gainsboro;
+	opacity: 1;
+	animation: myfirst 0.8s ease normal;
+	-moz-animation: myfirst 0.8s ease normal;
+	-webkit-animation: myfirst 0.8s ease normal;
+}
+
+
+/*用户图片的二级菜单显示的动画*/
+
+@keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Opera */
+
+@-o-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+user .icon-box .jkappxz img {
+	width: 120px;
+	height: 100%;
+}
+
+
+/*二级菜单顶上的小图标的样式和变换*/
+
+.jkappxz .top-icon {
+	position: absolute;
+	top: -8px;
+	right: 50px;
+	width: 15px;
+	height: 15px;
+	border-top: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+	display: inline-block;
+	background: #fff;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+
+
+/*用户二级菜单的样式定位*/
+
+user .icon-box .rt-list {
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	display: none;
+	width: 120px;
+	height: 196px;
+	background: white;
+	border-top: 1px solid gainsboro;
+	opacity: 1;
+	animation: myfirst 0.8s ease normal;
+	-moz-animation: myfirst 0.8s ease normal;
+	-webkit-animation: myfirst 0.8s ease normal;
+}
+
+
+/*用户二级菜单显示的动画*/
+
+@keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Safari and Chrome */
+
+@-webkit-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/* Opera */
+
+@-o-keyframes myfirst {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+user .icon-box span:nth-child(3):hover .rt-list {
+	display: block;
+}
+
+
+/*二级菜单的每一栏的样式*/
+
+.rt-list dd {
+	text-align: center;
+	font-size: 13px;
+	height: 36px;
+	line-height: 58px;
+}
+
+.rt-list dd a:hover {
+	color: #008000;
+}
+
+.rt-list dd a {
+	text-decoration: none;
+	color: gray;
+}
+
+
+/*二级菜单的雪碧图的样式*/
+
+.rt-list dd i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	background: url(../img/allicon2.png) 0 0 no-repeat;
+	background-size: 64px 64px;
+}
+
+
+/*二级菜单的地位显示*/
+
+.rt-list .xxzx-icon {
+	background-position: -16px -15px;
+}
+
+.rt-list .grzy-icon {
+	background-position: -45px -1px
+}
+
+.rt-list .xxtz-icon {
+	background-position: -16px -30px
+}
+
+.rt-list .zhsz-icon {
+	background-position: -30px -1px
+}
+
+
+/*二级菜单顶上的小图标的变换与定位和样式*/
+
+.rt-list .top-icon {
+	display: block;
+	position: absolute;
+	top: -8px;
+	right: 10px;
+	width: 15px;
+	height: 15px;
+	border-top: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+	display: inline-block;
+	background: #fff;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+
+
+/*导航栏旁边的小图标的样式与变换*/
+
+.icon {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	border-top: 1px solid #c1c1c1;
+	border-left: 1px solid #c1c1c1;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	transform-origin: 4px 4px;
+}
+
+
+/*划过导航栏旁边小图标显示的变换与动画*/
+
+.wrap nav li:hover i.icon {
+	margin-bottom: -2px;
+	border-top: 1px solid #35b558;
+	border-left: 1px solid #35b558;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	animation: rotate 1s ease normal;
+	-moz-animation: rotate 1s ease normal;
+	-webkit-animation: rotate 1s ease normal;
+}
+
+
+/*导航栏旁边的小图标的动画*/
+
+@keyframes rotate {
+	0% {
+		margin-bottom: 2px;
+		transform: rotate(-135deg);
+		-webkit-transform: rotate(-135deg);
+		-moz-transform: rotate(-135deg);
+		-ms-transform: rotate(-135deg);
+	}
+	10% {
+		margin-bottom: -2px;
+	}
+	100% {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+	}
+}
+
+
+/*搜索框样式*/
+
+.search-scale {
+	position: relative;
+	right: -150px;
+	top: -64px;
+	z-index: 1000;
+	width: 850px;
+	height: 60px;
+	background: #FFFFFF;
+	transform: scale(0, 0);
+	transform-origin: right center;
+	transition-duration: .5s;
+}
+
+
+/*close-icon*/
+
+.close-icon {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	margin-top: 22px;
+	background: url(../img/close-icon.png) no-repeat;
+	background-size: 15px 15px;
+}
+
+.search {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-top: 21px;
+	background: url(../img/search-icon.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+.search:hover {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/search-icon2.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+
+/*搜索框样式*/
+
+.ipt {
+	width: 400px;
+	height: 40px;
+	border: none;
+	font-size: 12px;
+	font-weight: 900;
+	color: #333333;
+	margin-left: 20px;
+	vertical-align: super;
+	outline: none;
+}
+
+.tagbox {
+	position: absolute;
+	left: 500px;
+	top: 0;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+}
+
+.tagbox a {
+	font-size: 12px;
+	color: #808080;
+	background: #f5f5f5;
+	padding: 3px 5px;
+	margin-left: 10px;
+}
+
+
+/*整个内容部分*/
+
+.container {
+	width: 1000px;
+	margin: 20px auto;
+	background: azure;
+}
+
+
+/*左边的内容*/
+
+.container-l {
+	position: relative;
+	float: left;
+	width: 210px;
+	background-color: #fff;
+}
+
+
+/*右边的内容*/
+
+.container-r {
+	float: right;
+	/*height: 800px;*/
+	width: 776px;
+	/*background: greenyellow;*/
+	margin-bottom: 50px
+}
+
+
+/*课程库里面的内容*/
+
+.aside-s {
+	position: relative;
+	width: 100%;
+	border: 1px solid #35B558;
+	background-color: #fff;
+}
+
+
+/*课程库*/
+
+.hd {
+	position: relative;
+	height: 45px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+.hd h2 {
+	height: 100%;
+}
+
+.hd h2 a {
+	font-size: 14px;
+	color: #35b558;
+	font-weight: 400;
+}
+
+
+/*课程库图片*/
+
+.kck-icon {
+	position: absolute;
+	top: 15px;
+	left: 8px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon-course-curr_0743c98.png) no-repeat 0 0/15px 15px;
+}
+
+
+/*课程库清单*/
+
+.kck-list {
+	width: 210px;
+	box-sizing: border-box;
+	background-color: #fff
+}
+
+.kck-list li {
+	position: relative;
+	width: 210px;
+	height: 37px;
+	line-height: 37px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	border-bottom: 1px solid #f5f5f5;
+	cursor: pointer;
+}
+
+.kck-list li:hover {
+	height: 38px;
+	width: 210px;
+	margin-top: -1px;
+	margin-left: -1px;
+	padding-left: 24px;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .1);
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .1);
+}
+
+.kck-list li a {
+	font-size: 12px;
+	color: #666666;
+}
+
+.kck-list li a:hover {
+	position: absolute;
+	z-index: 1102;
+	display: inline-block;
+	width: 188px;
+	background: #fff;
+	border-right: 3px solid #fff;
+	color: #35b558;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 36px;
+}
+
+.list-icon {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 210px;
+	height: 37px;
+	background: url(../img/icon-more_cd68622.png) no-repeat 186px center;
+	background-size: 6px 10px;
+}
+
+
+/*职业路径图等下面四项内容*/
+
+.aside-x {
+	width: 210px;
+	background-color: #fff
+}
+
+.aside-x li {
+	position: relative;
+	width: 210px;
+	height: 45px;
+	box-sizing: border-box;
+	padding-left: 31px;
+	cursor: pointer;
+}
+
+.aside-x li span {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	display: none;
+	font-size: 10px;
+	color: #C1C1C1;
+}
+
+.aside-x li:hover {
+	background: #F5F5F5;
+}
+
+.aside-x li:hover .ckqb {
+	display: block;
+}
+
+.aside-x li a:hover {
+	color: #35B558;
+}
+
+.aside-x li a {
+	display: inline-block;
+	height: 45px;
+	width: ;
+	line-height: 45px;
+	color: #333;
+	font-size: 14px;
+}
+
+.aside-x li a i {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.zy-icon {
+	background: url(../img/icon-zylj_6ee6dac.png) no-repeat left center;
+	background-size: 15px 14px;
+}
+
+.zs-icon {
+	background: url(../img/icon-zstx_a1ae096.png) no-repeat left center;
+	background-size: 15px 12.5px;
+}
+
+.xl-icon {
+	background: url(../img/icon-xlkc_2e47588.png) no-repeat left center;
+	background-size: 14px 14px;
+}
+
+.kc-icon {
+	background: url(../img/icon-kcbq_65534c2.png) no-repeat left center;
+	background-size: 15px 13px;
+}
+
+
+/*三级菜单框的样式*/
+
+.list-show {
+	position: absolute;
+	top: -1px;
+	left: 210px;
+	width: 410px;
+	height: 416px;
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	display: none;
+	z-index: 100;
+}
+
+
+/*三级菜单的列表项*/
+
+.list-show dl {
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.list-show dl dt {
+	height: 37px;
+	line-height: 45px;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.list-show dl dt a {
+	font-size: 13px;
+	font-weight: 500px;
+	color: #333333;
+}
+
+.list-show dl dd {
+	padding: 3px 0;
+	margin-bottom: 5px;
+}
+
+.list-show dl dd a {
+	font-size: 12px;
+	color: #666666;
+	font-weight: 400;
+}
+
+.list-show dl dd span {
+	font-size: 14px;
+	color: #e0e0e0;
+	margin: 0 5px;
+}
+
+.list-show dl a:hover {
+	color: #35B558;
+}
+
+
+/*后端开发菜单*/
+
+.hdkf {
+	position: absolute;
+	top: -1px;
+	left: 210px;
+	width: 410px;
+	height: 630px;
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+
+
+/*整个一条课程介绍*/
+
+.kc {
+	width: 776px;
+	height: 38px;
+	background: #FFFFFF;
+}
+
+
+/*课程内容*/
+
+.kcnr {
+	float: left;
+	width: 460px;
+	height: 38px;
+}
+
+.kcnr h3 {
+	float: left;
+	font-size: 12px;
+	color: gray;
+	font-weight: 400;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 21px;
+	border-right: 1px solid #F5F5F5;
+	cursor: default;
+}
+
+.kcnr dl {
+	float: left;
+	position: relative;
+}
+
+.kcnr dl:hover dd {
+	display: block;
+	border: 1px solid #EEEEEE;
+	border-top: none;
+	background: #FFFFFF;
+}
+
+.kcnr dl:hover dt {
+	border: 1px solid #EEEEEE;
+	border-bottom: none;
+	background: #FFFFFF;
+}
+
+.kcnr dl:hover i {
+	display: none;
+}
+
+.kcnr dt {
+	font-size: 12px;
+	color: gray;
+	font-weight: 400;
+	padding: 0px 27px 0 10px;
+	line-height: 38px;
+	cursor: default;
+}
+
+.kcnr dt i {
+	display: inline-block;
+	width: 0!important;
+	height: 0!important;
+	padding: 0!important;
+	font-size: 0!important;
+	line-height: 0!important;
+	border: 5px solid transparent;
+	border-bottom-width: 0;
+	border-top-color: gray;
+	border-width: 4px;
+	border-bottom-width: 0;
+}
+
+.kcnr dd {
+	position: relative;
+	background: #FFFFFF;
+	cursor: default;
+	display: none;
+	z-index: 1;
+}
+
+.kcnr dd a {
+	display: block;
+	font-size: 12px;
+	color: gray;
+	font-weight: 400;
+	padding: 10px 32px 10px 11px;
+	height: 15px;
+	cursor: default;
+}
+
+
+/*切换课程显示方式按钮*/
+
+.xsfs {
+	float: right;
+	width: 74px;
+	height: 38px;
+}
+
+.xsfs span {
+	float: left;
+	width: 36px;
+	height: 38px;
+	display: inline-block;
+	border-left: 1px solid #EEEEEE;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.xsfs span i {
+	margin-top: 12px;
+}
+
+.xsfs .hp-icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/icon-kuai_3c1a8cf.png) no-repeat 0 0;
+	background-size: 14px;
+}
+
+.xsfs .sp-icon {
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	background-size: 16px 12px;
+	background: url(../img/icon-list_6d9f87f.png) no-repeat;
+}
+
+
+/*点击sp-icon显示的内容*/
+
+.hp {
+	display: none;
+	overflow: hidden;
+	width: 776px;
+	/*height: 1000px;*/
+	/*background: aliceblue;*/
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.xsnr {
+	display: block;
+}
+
+.hp ul {
+	width: 100%;
+	height: 786px;
+	overflow: hidden;
+}
+
+
+/*第一张图片*/
+
+.hp li {
+	position: relative width: 250px;
+	height: 225px;
+	/*background: azure;*/
+}
+
+.hp-ul li {
+	float: left;
+	margin-right: 13px;
+	margin-bottom: 13px;
+}
+
+.hp-ul li:nth-child(3n+3) {
+	margin-right: 0px;
+}
+
+.tp {
+	position: relative;
+	width: 100%;
+	height: 135px;
+}
+
+.tp img {
+	height: 135px;
+}
+
+
+/*图片划过的背景颜色*/
+
+.lessonplay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+
+
+/*图片中间的播放按钮*/
+
+.playicon {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 40px auto;
+	background: url(../img/player_icon_5c67475.png) no-repeat;
+	background-size: 50px 50px;
+}
+
+
+/*图片下面文字*/
+
+.tpwz {
+	position: relative;
+	height: 88px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.tpwz h2 {
+	font-size: 14px;
+	height: 36px;
+	font-weight: 400;
+}
+
+.tpwz h2 a {
+	color: #333;
+}
+
+.tpwz div {
+	margin-top: 10px;
+}
+
+
+/*课时小图标*/
+
+.timeicon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-size: 14px 14px;
+	background: url(../img/clok_a413ecf.png) no-repeat;
+}
+
+
+/*腾讯云图标*/
+
+.txy {
+	position: absolute;
+	left: 221px;
+}
+
+
+/*腾讯云小图标*/
+
+.txyicon {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+
+/*划过li标签显示的内容*/
+
+.hgxs {
+	position: absolute;
+	top: 180px;
+	left: 0;
+	width: 250px;
+	height: 130px;
+	background: #FFFFFF;
+	padding: 10px;
+	box-sizing: border-box;
+	display: none;
+	z-index: 1;
+}
+
+
+/*划过显示的内容样式*/
+
+.hgxs>span,
+.zj,
+.time {
+	font-size: 12px;
+	color: gray;
+}
+
+
+/*第二排文字*/
+
+.hgxsnr {
+	position: absolute;
+	top: 76px;
+}
+
+
+/*多少人学习*/
+
+.people {
+	font-size: 12px;
+	color: gray;
+	margin-left: 60px;
+}
+
+
+/*第三排文字*/
+
+.jbtxy {
+	position: absolute;
+	top: 101px;
+}
+
+
+/*级别小图标*/
+
+.jbtxy i {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/tow-ji_ec2b553.png) no-repeat;
+	background-size: 14px 14px;
+}
+
+
+/*划过显示的腾讯云小图标*/
+
+.txy-1 {
+	margin-left: 165px;
+}
+
+
+/*竖排显示的内容*/
+
+.sp-ul {
+	width: 100%;
+}
+
+.sp-ul li {
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	margin-bottom: 13px;
+}
+
+
+/*左边图片*/
+
+.sptp {
+	float: left;
+	position: relative width: 185px;
+	height: 100px;
+}
+
+.sptp a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.sptp img {
+	width: 185px;
+	height: 100px;
+}
+
+
+/*背景颜色*/
+
+.bjys {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0, 0, 0, .4);
+}
+
+
+/*播放按钮*/
+
+.bjys i {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 25px auto;
+	background: url(../img/player_icon_5c67475.png) no-repeat;
+	background-size: 50px 50px;
+}
+
+
+/*右边的字体*/
+
+.spfont {
+	position: relative;
+	float: right;
+	width: 566px;
+	height: 88px;
+	/*background: antiquewhite;*/
+	margin: 6px 10px 6px 5px;
+}
+
+.spfont h2 {
+	height: 20px;
+	line-height: 10px;
+}
+
+.spfont h2 .bt {
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+}
+
+.spfont h2 .bt:hover {
+	color: #008000;
+}
+
+.spfont h2 .bttb {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 0;
+}
+
+.spfont h2 .bttb img {
+	width: 16px;
+	height: 16px;
+}
+
+.spfont p {
+	font-size: 12px;
+	color: gray;
+	margin-top: 5px;
+}
+
+.spfont .lastfont {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/*课时小图标*/
+
+.lastfont .lesson-icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-size: 14px 14px;
+	background: url(../img/clok_a413ecf.png) no-repeat;
+}
+
+.lastfont span {
+	font-size: 12px;
+	color: gray;
+}
+
+
+/*级别小图标*/
+
+.lastfont .jb-icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-left: 10px;
+	background: url(../img/tow-ji_ec2b553.png) no-repeat;
+	background-size: 14px 14px;
+}
+
+.lastfont .study-number {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+/*页码*/
+
+.pages {
+	width: 776px;
+	height: 28px;
+	margin: 0 auto;
+}
+
+.pages ul {
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.pages ul li {
+	text-align: center;
+	float: left;
+	margin-left: 5px
+}
+
+
+/*首页*/
+
+.pages .sy {
+	border: 1px solid #f0f0f0;
+	width: 50px;
+	height: 32px;
+	line-height: 32px;
+	background: #FFFFFF;
+	color: #d9d6c3;
+}
+
+
+/*上一页*/
+
+.syy {
+	border: 1px solid #f0f0f0;
+	width: 72px;
+	height: 32px;
+	line-height: 32px;
+	background: #FFFFFF;
+	color: #d9d6c3;
+}
+
+
+/*1-7页*/
+
+.ydq,
+.dian {
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	background: #FFFFFF;
+	color: gray;
+	border: 1px solid #e4e4e4;
+}
+
+.dyy {
+	background: #35B558;
+	color: #FFFFFF;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+}
+
+
+/*下一页*/
+
+.xyy,
+.my {
+	width: 50px;
+	height: 32px;
+	line-height: 32px;
+	background: #FFFFFF;
+	color: gray;
+	border: 1px solid #e4e4e4;
+}
+
+
+/*共95页*/
+
+.gy {
+	width: 60px;
+	height: 32px;
+	line-height: 32px;
+	color: #000;
+	border: none;
+}
+
+
+/*当前页*/
+
+.dqy {
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	border: none;
+	color: #000;
+}
+
+.txt {
+	width: 25px;
+	height: 15px;
+	line-height: 32px;
+	text-align: center;
+}
+
+
+/*确定*/
+
+.qd {
+	width: 32px;
+	height: 20px;
+	line-height: 22px;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #e4e4e4;
+	margin-top: 6px;
+}
+
+.ydq:hover,
+.xyy:hover,
+.my:hover,
+.qd:hover {
+	border-color: #35B558;
+	color: #35B558;
+}
+
+footer {
+	clear: both;
+}
+
+
+/*页脚样式*/
+
+.footer {
+	min-width: 1000px;
+	border-top: 1px solid #e4e4e4;
+	background: #fff;
+	clear: both;
+}
+
+
+/*容器定位样式*/
+
+.jkinfo-block .jkinfo {
+	position: relative;
+	width: 776px;
+	height: 215px;
+	margin: 0 auto;
+	border-bottom: 1px solid #f5f5f5;
+	padding-left: 224px;
+	padding-top: 25px;
+}
+
+
+/*logo定位样式*/
+
+.jkinfo-block .jkinfo .jk-logo {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	display: inline-block;
+	width: 160px;
+}
+
+
+/*图片样式*/
+
+.jkinfo-block .jkinfo .jk-logo img {
+	width: 109px;
+	height: 40px;
+	display: block;
+}
+
+
+/*p标签样式定位*/
+
+.jkinfo-block .jkinfo .jk-logo p {
+	font-size: 12px;
+	color: #999;
+	margin-top: 20px;
+}
+
+
+/*dl样式定位*/
+
+.jkinfo dl {
+	float: left;
+	width: 135px;
+	color: #808080;
+}
+
+
+/*dl标题样式*/
+
+.jkinfo dl dt {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+
+/*dd标签样式*/
+
+.jkinfo dl dd {
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.jkinfo dl dd a:hover {
+	color: #008000;
+}
+
+
+/*a标签样式*/
+
+.jkinfo dl dd a {
+	color: #999999;
+	text-decoration: none;
+}
+
+
+/*服务热线内容样式定位*/
+
+.footer .jk-down {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	display: inline-block;
+	width: 175px;
+	text-align: left;
+}
+
+.footer .jk-down .hot-tel {
+	color: #808080;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.footer .jk-down .down-ios {
+	background: url(../img/icon-down-ios.png) no-repeat 0 0;
+	background-size: 30px 30px;
+}
+
+.footer .jk-down .down-and {
+	background: url(../img/icon-down-and.png) no-repeat 0 0;
+	background-size: 30px 30px;
+}
+
+
+/*苹果安卓字体样式定位*/
+
+.footer .jk-down .downcon {
+	position: relative;
+	display: inline-block;
+	width: 86px;
+	height: 30px;
+	border: 1px solid #eeeeee;
+	margin-bottom: 10px;
+	line-height: 30px;
+	color: #808080;
+	font-size: 13px;
+	padding-left: 40px;
+	cursor: pointer;
+}
+
+
+/*二级菜单图片样式定位*/
+
+.footer .jk-down .downcon img {
+	position: absolute;
+	top: -157px;
+	left: 12px;
+	width: 115px;
+	height: 153px;
+	z-index: 2;
+	display: none;
+}
+
+.footer .jk-down .downcon:hover img {
+	display: block;
+}
+
+
+/*最下面字体样式定位*/
+
+.footer .copyright {
+	font-size: 12px;
+	color: #999;
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.footer .copyright strong {
+	font-weight: 800;
+}
+
+.footer .copyright a {
+	color: #999;
+	text-decoration: none;
+}
+
+.footer .copyright strong a:hover {
+	color: #008000;
+}
+
+
+/*心理图片样式定位*/
+
+.footer .copyright a.down-sina {
+	float: right;
+	height: 15px;
+	width: 20px;
+	margin-right: 10px;
+	background: url(../img/icon-down-sina.png) no-repeat;
+	background-size: 20px 15px;
+}
+
+
+/*微信图片样式定位*/
+
+.footer .copyright a.down-wechat {
+	float: right;
+	height: 15px;
+	width: 20px;
+	background: url(../img/icon-down-wechat.png) no-repeat;
+	background-size: 18px 15px;
+}
+
+.gotop {
+	position: fixed;
+	left: 50%;
+	margin-left: 510px;
+	bottom: 50px;
+	width: 34px;
+	text-align: center;
+	z-index: 2000;
+}
+
+.gotop span .top {
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/gotop.jpg) no-repeat;
+	background-size: 34px 103px;
+}
+
+.gotop span .top:hover {
+	width: 34px;
+	height: 34px;
+	background: url(../img/gotop2.jpg);
+	background-size: 34px 103px;
+}
+
+.gotop span .jk-app {
+	position: relative;
+	display: block;
+	width: 34px;
+	height: 35px;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f7f7f7 url(../img/phone-1.png) center center no-repeat;
+	background-size: 12px 24px;
+}
+
+
+/*二级菜单*/
+
+.appewm {
+	position: absolute;
+	z-index: 2100;
+	left: -126px;
+	top: -70px;
+	display: none;
+	width: 126px;
+	height: 159px;
+	background: url(../img/appewm.png) center center no-repeat;
+	background-size: 100%;
+}
+
+.diaocha {
+	position: relative;
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/icon-down-wechat.png) no-repeat;
+}
+
+.gotop .kefu {
+	position: relative;
+	display: block;
+	width: 34px;
+	height: 35px;
+	border-top: 1px solid #e0e0e0;
+	background: #f7f7f7 url(../img/kfu1.png) center center no-repeat;
+}
+
+
+/*二级菜单*/
+
+.gotop .kefu .kf {
+	position: absolute;
+	padding: 5px;
+	background: #f7f7f7;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+	width: 180px;
+	left: -190px;
+	display: none;
+}
+
+
+/*返回顶部*/
+
+.fhdp {
+	position: fixed;
+	bottom: 70px;
+	left: 50%;
+	width: 34px;
+	height: 70px;
+	/*background: orange;*/
+	margin-left: 508px;
+}
+
+
+/*顶部背景图标*/
+
+.db {
+	display: block;
+	width: 34px;
+	height: 34px;
+	cursor: pointer;
+	background: url(../img/gotop.jpg) no-repeat 0 0;
+	background-size: 34px 103px;
+}
+
+.db:hover {
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/gotop2.jpg) no-repeat 0 0;
+	background-size: 34px 103px;
+}
+
+.phone {
+	display: block;
+	position: relative;
+	width: 34px;
+	height: 35px;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f7f7f7;
+	background: url(../img/phone-1.png) no-repeat center center;
+	background-size: 12px 24px;
+}
+
+.phone:hover {
+	display: block;
+	width: 34px;
+	height: 35px;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f7f7f7;
+	background: url(../img/phone-2.png) no-repeat center center;
+	background-size: 12px 24px;
+}
+
+.phone:hover .code {
+	display: block;
+}
+
+.code {
+	position: absolute;
+	top: -68px;
+	left: -132px;
+	display: none;
+	width: 126px;
+	height: 159px;
+	background: url(../img/appewm.png) no-repeat center center;
+	background-size: 100%;
+}
