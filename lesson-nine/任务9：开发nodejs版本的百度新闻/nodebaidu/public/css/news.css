@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+/*头部背景图片*/
+.head{
+	background: url(../img/bg-news-logo_344ce44.png) no-repeat center center;
+	display: inline-block;
+	background-size: 65px auto;
+	width: 100%;
+	height: 48px;
+	background-color: #3e98f0;
+}
+/*a标签公共样式*/
+.head a{
+	display: inline-block;
+	width: 34px;
+	height: 100%;
+	background-size: 40px 500px;
+}
+/*百度logo*/
+.bdlg{
+	background: url(../img/icon-bg_6e9bc53.png) no-repeat center 6px;
+	margin-left: 6px;
+	float: left;
+}
+/*我的设置*/
+.mySet{
+	background: url(../img/icon-bg_6e9bc53.png) no-repeat center -461px;
+	float: left;
+	margin-left: 8px;
+}
+/*订阅*/
+.subscribe{
+	background: url(../img/icon-bg_6e9bc53.png) no-repeat center -105px;
+	float: right;
+	margin-right: 6px;
+}
+/*搜索*/
+.search{
+	background: url(../img/icon-bg_6e9bc53.png) no-repeat center -160px;
+	float: right;
+	margin-right: 8px;
+}
+/*导航栏*/
+.navs{
+	background-color: #3e98f0;
+	overflow: hidden;
+	margin-top: -3px;
+}
+.navs ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.navs ul li{
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	box-sizing: border-box;
+}
+.navs ul li a{
+	font-size: 15px;
+	color: #ffffff;
+}
+/*导航栏内容里面的竖杠*/
+.navs ul li i{
+	width: 1px;
+	height: 12px;
+	position: absolute;
+	background-color: #5dabf0;
+    top: 15px;
+    right: 0px;
+}
+/*更多右边的小三角*/
+.more{
+	background: url(../img/nav-down_9d191a2.png) no-repeat center right;
+	display: inline-block;
+	background-size: 10px;
+	padding-right: 12px;
+}
+.news-lists{
+	margin-top: 5px;
+	width: 100%;
+}
+.news-list{
+	display: flex;
+	width: 100%;
+	padding: 0 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.newsimg{
+	flex: 1;
+}
+.newsimg img{
+	width: 100%;
+	height: auto;
+}
+.newscontent{
+	flex: 2;
+	padding: 0 10px;
+}
+.newscontent h1{
+	font-size: 20px;
+	color: #333;
+}
+.newscontent p{
+	font-size: 15px;
+	color: #999;
+}
